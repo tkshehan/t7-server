@@ -1,7 +1,7 @@
 const got = require('got');
 const cheerio = require('cheerio');
 
-function characterScraper(character, callback) {
+function rbnorwayScraper(character, callback) {
   const url = `http://rbnorway.org/${character}-t7-frames/`;
 
   got(url).then((response) => {
@@ -63,4 +63,4 @@ function characterScraper(character, callback) {
   });
 }
 
-module.exports = characterScraper;
+module.exports = rbnorwayScraper;

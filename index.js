@@ -1,9 +1,9 @@
 const fs = require('fs');
 const characters = require('./characters');
-const characterScraper = require('./characterScraper');
+const rbnorwayScraper = require('./rbnorwayScraper');
 
 characters.forEach((character) => {
-  characterScraper(character, writeCharacter);
+  rbnorwayScraper(character, writeCharacter);
 
   function writeCharacter(moves) {
     fs.writeFile(
