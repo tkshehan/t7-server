@@ -37,7 +37,7 @@ function characterScraper(character, callback) {
       };
     });
 
-    throws.shift();
+    throws.shift(); // Remove table header
     throws = throws.map((move) => {
       return {
         'Command': move[0],
@@ -54,6 +54,7 @@ function characterScraper(character, callback) {
     if (throws.length === 0) {
       delete obj.throws;
     }
+
     return obj;
   }).then((moves) => {
     callback(moves);
