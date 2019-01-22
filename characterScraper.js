@@ -1,7 +1,7 @@
 const got = require('got');
 const cheerio = require('cheerio');
 
-function characterScraper(character) {
+function characterScraper(character, callback) {
   const url = `http://rbnorway.org/${character}-t7-frames/`;
 
   let $;
@@ -28,12 +28,11 @@ function characterScraper(character) {
         'Notes': rawMoves.shift(),
       });
     }
-    return {
-      character,
-      moves,
-    };
+    return moves;
+  }).then((moves) => {
+    callback(moves);
   }).catch((error) => {
-    console.log(error.response.body);
+    throw error;
   });
 }
 

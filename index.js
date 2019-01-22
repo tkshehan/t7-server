@@ -1,45 +1,21 @@
+const fs = require('fs');
+const characters = require('./characters');
 const characterScraper = require('./characterScraper');
 
-const characters = [
-  'akuma',
-  'alisa',
-  'anna',
-  'armor-king',
-  'asuka',
-  'bob',
-  'bryan',
-  'claudio',
-  'devil-jin',
-  'dragunov',
-  'eddy',
-  'eliza',
-  'feng',
-  'geese',
-  'gigas',
-  'heihachi',
-  'hwoarang',
-  'jack7',
-  'jin',
-  'josie',
-  'katarina',
-  'kazumi',
-  'kazuya',
-  'king',
-  'kuma',
-  'lars',
-  'lei',
-  'law',
-  'lee',
-  'leo',
-  'lili',
-  'lucky-chloe',
-  'marduk',
-  'master-raven',
-  'miguel',
-  'nina',
-  'noctis',
-  'paul',
-  'shaheen',
-  'steve',
-  'xiaoyu',
-  'yoshimitsu'];
+characters.forEach((character) => {
+  characterScraper(character, writeCharacter);
+
+  function writeCharacter(moves) {
+    fs.writeFile(
+        `./data/${character}.json`,
+        JSON.stringify(moves, null, 2),
+        (err) => {
+          if (err) {
+            console.log(err);
+          } else {
+            console.log(character + ' saved');
+          }
+        }
+    );
+  }
+});
