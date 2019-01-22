@@ -6,29 +6,55 @@ function characterScraper(character, callback) {
 
   got(url).then((response) => {
     const $ = cheerio.load(response.body);
-    const rawMoves = $('tr').text().split('\n');
+    const rows = $('tr');
 
-    // Removes Table Headers
-    for (let i = 0; i < 9; i++) {
-      rawMoves.shift();
-    }
-
-    const moves = [];
-    // If set to 0, an empty object is added to the end of the array
-    while (rawMoves.length > 1) {
-      rawMoves.shift(); // Remove empty entry
-      moves.push({
-        'Command': rawMoves.shift(),
-        'HitLevel': rawMoves.shift(),
-        'Damage': rawMoves.shift(),
-        'Startup': rawMoves.shift(),
-        'Block': rawMoves.shift(),
-        'Hit': rawMoves.shift(),
-        'CounterHit': rawMoves.shift(),
-        'Notes': rawMoves.shift(), // May be an empty string
+    let moves = [];
+    rows.each(function(i, row) {
+      const move = [];
+      row.childNodes.forEach((cell) => {
+        const data = $(cell).html();
+        if (data !== null) {
+          move.push(data);
+        }
       });
+      moves.push(move);
+    });
+
+    let throws = moves.filter((array) => array.length === 7);
+    moves = moves.filter((array) => array.length === 8);
+
+    moves.shift(); // Remove table header
+    moves = moves.map((move) => {
+      return {
+        'Command': move[0],
+        'Level': move[1],
+        'Damage': move[2],
+        'Startup': move[3],
+        'Block': move[4],
+        'Hit': move[5],
+        'CH': move[6],
+        'Notes': move[7],
+      };
+    });
+
+    throws.shift();
+    throws = throws.map((move) => {
+      return {
+        'Command': move[0],
+        'Level': move[1],
+        'Damage': move[2],
+        'Startup': move[3],
+        'Break': move[4],
+        'BreakFrame': move[5],
+        'Notes': move[6],
+      };
+    });
+
+    const obj = {character, moves, throws};
+    if (throws.length === 0) {
+      delete obj.throws;
     }
-    return moves;
+    return obj;
   }).then((moves) => {
     callback(moves);
   }).catch((error) => {

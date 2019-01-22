@@ -1,1042 +1,1045 @@
-[
-  {
-    "Command": "in rage d+1+2",
-    "HitLevel": "m",
-    "Damage": "55",
-    "Startup": "20 pc",
-    "Block": "-32",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": "rage art"
-  },
-  {
-    "Command": "in rage f+2+3",
-    "HitLevel": "m",
-    "Damage": "10,30",
-    "Startup": "18",
-    "Block": "+2",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": "rage drive"
-  },
-  {
-    "Command": "1",
-    "HitLevel": "h",
-    "Damage": "7",
-    "Startup": "10",
-    "Block": "+1",
-    "Hit": "+8",
-    "CounterHit": "+8",
-    "Notes": ""
-  },
-  {
-    "Command": "1, 2",
-    "HitLevel": "h,h",
-    "Damage": "7,8",
-    "Startup": "10",
-    "Block": "-2",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": "nc from 1st hit"
-  },
-  {
-    "Command": "1, 2, 2",
-    "HitLevel": "h,h,h",
-    "Damage": "7,8,12",
-    "Startup": "10",
-    "Block": "-11",
-    "Hit": "+1",
-    "CounterHit": "+1",
-    "Notes": "nc from 1st hit"
-  },
-  {
-    "Command": "1, 2, 1+2",
-    "HitLevel": "h,h,m",
-    "Damage": "7,8,23",
-    "Startup": "10",
-    "Block": "-9",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Tail spin"
-  },
-  {
-    "Command": "1, 2, 3 or 4",
-    "HitLevel": "h,h, (Special)",
-    "Damage": "7,8",
-    "Startup": "js",
-    "Block": "-26",
-    "Hit": "-18",
-    "CounterHit": "-18",
-    "Notes": ""
-  },
-  {
-    "Command": "2",
-    "HitLevel": "m",
-    "Damage": "9",
-    "Startup": "15",
-    "Block": "-12",
-    "Hit": "-6",
-    "CounterHit": "-6",
-    "Notes": ""
-  },
-  {
-    "Command": "2, 2",
-    "HitLevel": "m,m",
-    "Damage": "9,9",
-    "Startup": "15",
-    "Block": "-9",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": "nc from 1st hit"
-  },
-  {
-    "Command": "2, 2, 2",
-    "HitLevel": "m,m,h",
-    "Damage": "9,9,7",
-    "Startup": "15",
-    "Block": "-8",
-    "Hit": "-2",
-    "CounterHit": "-2",
-    "Notes": ""
-  },
-  {
-    "Command": "2, 2, 2, 2",
-    "HitLevel": "m,m,h,h",
-    "Damage": "9,9,7,7",
-    "Startup": "15",
-    "Block": "-7",
-    "Hit": "+7",
-    "CounterHit": "+7",
-    "Notes": "nc from 3rd hit"
-  },
-  {
-    "Command": "2, 2, 2, 2, 2",
-    "HitLevel": "m,m,h,y,m",
-    "Damage": "9,9,7,7,15",
-    "Startup": "15",
-    "Block": "-14",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "nc from 3rd hit"
-  },
-  {
-    "Command": "2, 2, f+2",
-    "HitLevel": "m,m,m",
-    "Damage": "9,9,23",
-    "Startup": "15",
-    "Block": "-14",
-    "Hit": "+5",
-    "CounterHit": "+5",
-    "Notes": "Tail spin"
-  },
-  {
-    "Command": "2, 2, b+2",
-    "HitLevel": "m, m, m(throw)",
-    "Damage": "9,9,5,(20)",
-    "Startup": "15 js",
-    "Block": "-11",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "3",
-    "HitLevel": "h",
-    "Damage": "15",
-    "Startup": "14",
-    "Block": "-7",
-    "Hit": "-1",
-    "CounterHit": "-1",
-    "Notes": ""
-  },
-  {
-    "Command": "4",
-    "HitLevel": "h",
-    "Damage": "15",
-    "Startup": "12",
-    "Block": "-8",
-    "Hit": "+3",
-    "CounterHit": "+3",
-    "Notes": ""
-  },
-  {
-    "Command": "4,2",
-    "HitLevel": "h,m",
-    "Damage": "15,15",
-    "Startup": "12",
-    "Block": "-14",
-    "Hit": "-1",
-    "CounterHit": "-1",
-    "Notes": ""
-  },
-  {
-    "Command": "1+2",
-    "HitLevel": "h,m",
-    "Damage": "17,24",
-    "Startup": "18",
-    "Block": "-14",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Homing, Tail Spin"
-  },
-  {
-    "Command": "1+2~B",
-    "HitLevel": "h",
-    "Damage": "17",
-    "Startup": "18",
-    "Block": "-9",
-    "Hit": "-3",
-    "CounterHit": "-3",
-    "Notes": "Homing"
-  },
-  {
-    "Command": "f+2",
-    "HitLevel": "m",
-    "Damage": "8(,25)",
-    "Startup": "20 js",
-    "Block": "-9",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "f+3",
-    "HitLevel": "m",
-    "Damage": "14",
-    "Startup": "16",
-    "Block": "-9",
-    "Hit": "+9",
-    "CounterHit": "+9",
-    "Notes": ""
-  },
-  {
-    "Command": "f+3, 2",
-    "HitLevel": "m,m",
-    "Damage": "14,5(,20)",
-    "Startup": "16",
-    "Block": "-11",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "f+4",
-    "HitLevel": "m",
-    "Damage": "13",
-    "Startup": "17",
-    "Block": "-8",
-    "Hit": "+8",
-    "CounterHit": "+8",
-    "Notes": ""
-  },
-  {
-    "Command": "f+4, 2",
-    "HitLevel": "m,m",
-    "Damage": "13,21",
-    "Startup": "17",
-    "Block": "-11",
-    "Hit": "+12",
-    "CounterHit": "+12",
-    "Notes": "Tail spin"
-  },
-  {
-    "Command": "f+1+2",
-    "HitLevel": "m",
-    "Damage": "24",
-    "Startup": "16",
-    "Block": "-19",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "f+1+4",
-    "HitLevel": "m",
-    "Damage": "20",
-    "Startup": "23",
-    "Block": "-13",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Power Crush"
-  },
-  {
-    "Command": "d/f+1",
-    "HitLevel": "m",
-    "Damage": "10",
-    "Startup": "13",
-    "Block": "-1",
-    "Hit": "+7",
-    "CounterHit": "+7",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+1, 4",
-    "HitLevel": "m,h",
-    "Damage": "10,20",
-    "Startup": "13 js",
-    "Block": "-5",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Tail Spion"
-  },
-  {
-    "Command": "d/f+2",
-    "HitLevel": "m",
-    "Damage": "15",
-    "Startup": "15",
-    "Block": "-20",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+3",
-    "HitLevel": "m",
-    "Damage": "9",
-    "Startup": "16",
-    "Block": "-13",
-    "Hit": "-2",
-    "CounterHit": "-2",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+3, 1",
-    "HitLevel": "m,h",
-    "Damage": "9,7",
-    "Startup": "16",
-    "Block": "-10",
-    "Hit": "-3",
-    "CounterHit": "-3",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+4",
-    "HitLevel": "m",
-    "Damage": "12",
-    "Startup": "14",
-    "Block": "-7",
-    "Hit": "+4",
-    "CounterHit": "+4",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+4, 2",
-    "HitLevel": "m,h",
-    "Damage": "12,17",
-    "Startup": "14",
-    "Block": "-2",
-    "Hit": "+8",
-    "CounterHit": "+8",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+4, 2, 4",
-    "HitLevel": "m,h,h",
-    "Damage": "12,17,20",
-    "Startup": "14 js",
-    "Block": "-5",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Tail Spin"
-  },
-  {
-    "Command": "d/f+4, 2, 2",
-    "HitLevel": "m,h,m",
-    "Damage": "12,17,21",
-    "Startup": "14 js",
-    "Block": "-8",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "d/f+1+2",
-    "HitLevel": "m",
-    "Damage": "27",
-    "Startup": "25",
-    "Block": "-9",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Tail Spin"
-  },
-  {
-    "Command": "d+1",
-    "HitLevel": "m,m",
-    "Damage": "10,10",
-    "Startup": "17",
-    "Block": "-3",
-    "Hit": "+4",
-    "CounterHit": "+4",
-    "Notes": ""
-  },
-  {
-    "Command": "d+2",
-    "HitLevel": "l",
-    "Damage": "12",
-    "Startup": "20",
-    "Block": "-18",
-    "Hit": "-3",
-    "CounterHit": "-3",
-    "Notes": ""
-  },
-  {
-    "Command": "d+2, 2",
-    "HitLevel": "l,h",
-    "Damage": "12,23",
-    "Startup": "20",
-    "Block": "-9",
-    "Hit": "+10",
-    "CounterHit": "KND",
-    "Notes": "Tail Spin"
-  },
-  {
-    "Command": "d or d/b+3",
-    "HitLevel": "l",
-    "Damage": "13 cs",
-    "Startup": "16",
-    "Block": "-13",
-    "Hit": "-2",
-    "CounterHit": "-2",
-    "Notes": ""
-  },
-  {
-    "Command": "d+4",
-    "HitLevel": "l",
-    "Damage": "9",
-    "Startup": "19",
-    "Block": "-31",
-    "Hit": "-9",
-    "CounterHit": "-9",
-    "Notes": ""
-  },
-  {
-    "Command": "d+4, 1",
-    "HitLevel": "l,h",
-    "Damage": "9(13),20",
-    "Startup": "19",
-    "Block": "-12",
-    "Hit": "+4",
-    "CounterHit": "+4",
-    "Notes": ""
-  },
-  {
-    "Command": "d+4 ,1, 1+2",
-    "HitLevel": "l,h,m",
-    "Damage": "9(13),20,2,2(25)",
-    "Startup": "19",
-    "Block": "-18s",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+1",
-    "HitLevel": "m",
-    "Damage": "7",
-    "Startup": "15",
-    "Block": "-6",
-    "Hit": "+3",
-    "CounterHit": "+3",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+1, 1+2",
-    "HitLevel": "m,m,m",
-    "Damage": "7,7,10",
-    "Startup": "15",
-    "Block": "-5",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+1~F",
-    "HitLevel": "m",
-    "Damage": "7",
-    "Startup": "15",
-    "Block": "-6",
-    "Hit": "0",
-    "CounterHit": "0",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+2",
-    "HitLevel": "l",
-    "Damage": "23",
-    "Startup": "24",
-    "Block": "-19",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+4",
-    "HitLevel": "l",
-    "Damage": "9",
-    "Startup": "17",
-    "Block": "-12",
-    "Hit": "-1",
-    "CounterHit": "-1",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+1+2",
-    "HitLevel": "m",
-    "Damage": "25",
-    "Startup": "25",
-    "Block": "-16",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "d/b+1+2*",
-    "HitLevel": "m",
-    "Damage": "28",
-    "Startup": "46",
-    "Block": "+2",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "b+1",
-    "HitLevel": "h",
-    "Damage": "10",
-    "Startup": "12",
-    "Block": "-11",
-    "Hit": "0",
-    "CounterHit": "0",
-    "Notes": ""
-  },
-  {
-    "Command": "b+1, 2",
-    "HitLevel": "h,h",
-    "Damage": "10,21",
-    "Startup": "12",
-    "Block": "-9",
-    "Hit": "+7",
-    "CounterHit": "+7",
-    "Notes": ""
-  },
-  {
-    "Command": "b+2",
-    "HitLevel": "m",
-    "Damage": "13",
-    "Startup": "15",
-    "Block": "-9",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": ""
-  },
-  {
-    "Command": "b+2 when hit 1+2",
-    "HitLevel": "m, throw",
-    "Damage": "13,6,14",
-    "Startup": "15",
-    "Block": "~",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": ""
-  },
-  {
-    "Command": "b+3",
-    "HitLevel": "h",
-    "Damage": "14",
-    "Startup": "14",
-    "Block": "-12",
-    "Hit": "-1",
-    "CounterHit": "-1",
-    "Notes": ""
-  },
-  {
-    "Command": "b+3, 1",
-    "HitLevel": "h,m",
-    "Damage": "14,23",
-    "Startup": "14",
-    "Block": "-14",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "b+3~B",
-    "HitLevel": "h, (special)",
-    "Damage": "14",
-    "Startup": "14",
-    "Block": "-8",
-    "Hit": "+3",
-    "CounterHit": "+3",
-    "Notes": ""
-  },
-  {
-    "Command": "b+4",
-    "HitLevel": "h",
-    "Damage": "17",
-    "Startup": "18",
-    "Block": "-7",
-    "Hit": "+7",
-    "CounterHit": "+7",
-    "Notes": ""
-  },
-  {
-    "Command": "b+4, 1+2",
-    "HitLevel": "h,m",
-    "Damage": "17,27",
-    "Startup": "20",
-    "Block": "-13",
-    "Hit": "KND",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "b+1+4",
-    "HitLevel": "m",
-    "Damage": "20",
-    "Startup": "26",
-    "Block": "-11",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "b+2+3",
-    "HitLevel": "m!",
-    "Damage": "50",
-    "Startup": "69",
-    "Block": "KND",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "u/b or u or u/f+1",
-    "HitLevel": "h",
-    "Damage": "17",
-    "Startup": "14",
-    "Block": "-4",
-    "Hit": "+8",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "u/b or u or u/f+2 ",
-    "HitLevel": "m",
-    "Damage": "21",
-    "Startup": "30 js9~",
-    "Block": "-8",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "u/b or u or u/f+3",
-    "HitLevel": "m(,m)",
-    "Damage": "11(,23)",
-    "Startup": "17 js9~",
-    "Block": "-13",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "u/b or u or u/f+4",
-    "HitLevel": "h",
-    "Damage": "20",
-    "Startup": "19 js9~",
-    "Block": "-5",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Homing, Tail Spin"
-  },
-  {
-    "Command": "u/b,b",
-    "HitLevel": "special",
-    "Damage": "js10~",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "u/b or u or u/f",
-    "HitLevel": "special",
-    "Damage": "js9~",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "During jump 1",
-    "HitLevel": "m",
-    "Damage": "7",
-    "Startup": "9",
-    "Block": "-23",
-    "Hit": "-16",
-    "CounterHit": "-16",
-    "Notes": ""
-  },
-  {
-    "Command": "During jump 2",
-    "HitLevel": "m",
-    "Damage": "14",
-    "Startup": "10",
-    "Block": "-22",
-    "Hit": "-15",
-    "CounterHit": "-15",
-    "Notes": ""
-  },
-  {
-    "Command": "(When hit in air) 2, 2",
-    "HitLevel": "m,m",
-    "Damage": "14,14",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "(When hit in air) 2, 2, 2",
-    "HitLevel": "m,m,m",
-    "Damage": "14,14,23",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": "Tail spin"
-  },
-  {
-    "Command": "(During jump) 3",
-    "HitLevel": "m",
-    "Damage": "10",
-    "Startup": "10",
-    "Block": "-22",
-    "Hit": "-15",
-    "CounterHit": "-15",
-    "Notes": ""
-  },
-  {
-    "Command": "(During jump) 4",
-    "HitLevel": "m",
-    "Damage": "12",
-    "Startup": "12",
-    "Block": "-21",
-    "Hit": "-14",
-    "CounterHit": "-14",
-    "Notes": ""
-  },
-  {
-    "Command": "(During jump) 1+2",
-    "HitLevel": "m",
-    "Damage": "27",
-    "Startup": "41 js9~",
-    "Block": "+5",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "f, f+4",
-    "HitLevel": "m",
-    "Damage": "15(,14,21)",
-    "Startup": "19",
-    "Block": "-14",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "f, f+1+2",
-    "HitLevel": "m",
-    "Damage": "17",
-    "Startup": "15",
-    "Block": "-9",
-    "Hit": "+10",
-    "CounterHit": "KND",
-    "Notes": "Tail Spin, Homing"
-  },
-  {
-    "Command": "f, f+3+4",
-    "HitLevel": "h",
-    "Damage": "50",
-    "Startup": "30 js14~",
-    "Block": "-8",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "f, f, f+1+2 or wr+1+2",
-    "HitLevel": "m",
-    "Damage": "25",
-    "Startup": "23 js3~",
-    "Block": "+11",
-    "Hit": "JG",
-    "CounterHit": "JG",
-    "Notes": ""
-  },
-  {
-    "Command": "FC+1",
-    "HitLevel": "sm",
-    "Damage": "5",
-    "Startup": "10 cs",
-    "Block": "-5",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": ""
-  },
-  {
-    "Command": "FC+2",
-    "HitLevel": "sm",
-    "Damage": "8",
-    "Startup": "11 cs",
-    "Block": "-9",
-    "Hit": "+5",
-    "CounterHit": "+5",
-    "Notes": ""
-  },
-  {
-    "Command": "FC+3",
-    "HitLevel": "l",
-    "Damage": "12 cs",
-    "Startup": "16",
-    "Block": "-17",
-    "Hit": "-3",
-    "CounterHit": "-3",
-    "Notes": ""
-  },
-  {
-    "Command": "FC+4",
-    "HitLevel": "l",
-    "Damage": "10",
-    "Startup": "12 cs",
-    "Block": "-15",
-    "Hit": "-4",
-    "CounterHit": "-4",
-    "Notes": ""
-  },
-  {
-    "Command": "WS+1",
-    "HitLevel": "m",
-    "Damage": "10",
-    "Startup": "13",
-    "Block": "-8",
-    "Hit": "+6",
-    "CounterHit": "+6",
-    "Notes": ""
-  },
-  {
-    "Command": "WS+1, 2",
-    "HitLevel": "m,m",
-    "Damage": "10,23",
-    "Startup": "13",
-    "Block": "-13",
-    "Hit": "+2",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "ws+2",
-    "HitLevel": "m",
-    "Damage": "15",
-    "Startup": "15",
-    "Block": "-9",
-    "Hit": "-3",
-    "CounterHit": "-3",
-    "Notes": ""
-  },
-  {
-    "Command": "ws+2, 2",
-    "HitLevel": "m,m",
-    "Damage": "13,23",
-    "Startup": "15",
-    "Block": "-14",
-    "Hit": "+5",
-    "CounterHit": "+5",
-    "Notes": "Tail spin"
-  },
-  {
-    "Command": "ws+3",
-    "HitLevel": "m",
-    "Damage": "12",
-    "Startup": "14",
-    "Block": "-7",
-    "Hit": "+9",
-    "CounterHit": "+9",
-    "Notes": ""
-  },
-  {
-    "Command": "ws+3,2",
-    "HitLevel": "m,m",
-    "Damage": "12,5(,20)",
-    "Startup": "14",
-    "Block": "-11",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "ws+4",
-    "HitLevel": "m",
-    "Damage": "15",
-    "Startup": "11",
-    "Block": "-6",
-    "Hit": "+5",
-    "CounterHit": "+5",
-    "Notes": ""
-  },
-  {
-    "Command": "FC+d/f+2",
-    "HitLevel": "l",
-    "Damage": "17",
-    "Startup": "20 cs",
-    "Block": "-13",
-    "Hit": "+4s",
-    "CounterHit": "+13g",
-    "Notes": "Homing"
-  },
-  {
-    "Command": "1+2+3+4",
-    "HitLevel": "",
-    "Damage": "",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "1+3+4",
-    "HitLevel": "",
-    "Damage": "",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "SS+2",
-    "HitLevel": "m",
-    "Damage": "21",
-    "Startup": "18",
-    "Block": "0",
-    "Hit": "5s",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "BT 1",
-    "HitLevel": "h",
-    "Damage": "15",
-    "Startup": "8",
-    "Block": "-8",
-    "Hit": "+3",
-    "CounterHit": "+3",
-    "Notes": ""
-  },
-  {
-    "Command": "BT 2",
-    "HitLevel": "m",
-    "Damage": "16",
-    "Startup": "20",
-    "Block": "-9",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "BT 3 or 4",
-    "HitLevel": "h",
-    "Damage": "25",
-    "Startup": "10",
-    "Block": "-8",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "BT d+1 or d+2",
-    "HitLevel": "sm",
-    "Damage": "10",
-    "Startup": "10",
-    "Block": "-2",
-    "Hit": "+9",
-    "CounterHit": "+9",
-    "Notes": ""
-  },
-  {
-    "Command": "BT d+3 or d+4",
-    "HitLevel": "l",
-    "Damage": "12",
-    "Startup": "10",
-    "Block": "-11",
-    "Hit": "+3",
-    "CounterHit": "+3",
-    "Notes": ""
-  },
-  {
-    "Command": "f+3+4",
-    "HitLevel": "",
-    "Damage": "",
-    "Startup": "cs",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  },
-  {
-    "Command": "f+3+4, 1",
-    "HitLevel": "m",
-    "Damage": "24",
-    "Startup": "18",
-    "Block": "-13",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": "Power crush, Wall bounce"
-  },
-  {
-    "Command": "f+3+4, 3+4",
-    "HitLevel": "l",
-    "Damage": "17",
-    "Startup": "20 cs",
-    "Block": "-20",
-    "Hit": "KND",
-    "CounterHit": "KND",
-    "Notes": ""
-  },
-  {
-    "Command": "In rage d+1+2",
-    "HitLevel": "m",
-    "Damage": "55",
-    "Startup": "20",
-    "Block": "-32",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "In rage f+2+3",
-    "HitLevel": "m",
-    "Damage": "10(,30)",
-    "Startup": "18",
-    "Block": "+2",
-    "Hit": "throw",
-    "CounterHit": "throw",
-    "Notes": ""
-  },
-  {
-    "Command": "",
-    "HitLevel": "",
-    "Damage": "",
-    "Startup": "",
-    "Block": "",
-    "Hit": "",
-    "CounterHit": "",
-    "Notes": ""
-  }
-]
+{
+  "character": "noctis",
+  "moves": [
+    {
+      "Command": "in rage d+1+2",
+      "Level": "m",
+      "Damage": "55",
+      "Startup": "20 pc",
+      "Block": "-32",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": "rage art"
+    },
+    {
+      "Command": "in rage f+2+3",
+      "Level": "m",
+      "Damage": "10,30",
+      "Startup": "18",
+      "Block": "+2",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": "rage drive"
+    },
+    {
+      "Command": "1",
+      "Level": "h",
+      "Damage": "7",
+      "Startup": "10",
+      "Block": "+1",
+      "Hit": "+8",
+      "CH": "+8",
+      "Notes": ""
+    },
+    {
+      "Command": "1, 2",
+      "Level": "h,h",
+      "Damage": "7,8",
+      "Startup": "10",
+      "Block": "-2",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": "nc from 1st hit"
+    },
+    {
+      "Command": "1, 2, 2",
+      "Level": "h,h,h",
+      "Damage": "7,8,12",
+      "Startup": "10",
+      "Block": "-11",
+      "Hit": "+1",
+      "CH": "+1",
+      "Notes": "nc from 1st hit"
+    },
+    {
+      "Command": "1, 2, 1+2",
+      "Level": "h,h,m",
+      "Damage": "7,8,23",
+      "Startup": "10",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tail spin"
+    },
+    {
+      "Command": "1, 2, 3 or 4",
+      "Level": "h,h, (Special)",
+      "Damage": "7,8",
+      "Startup": "js",
+      "Block": "-26",
+      "Hit": "-18",
+      "CH": "-18",
+      "Notes": ""
+    },
+    {
+      "Command": "2",
+      "Level": "m",
+      "Damage": "9",
+      "Startup": "15",
+      "Block": "-12",
+      "Hit": "-6",
+      "CH": "-6",
+      "Notes": ""
+    },
+    {
+      "Command": "2, 2",
+      "Level": "m,m",
+      "Damage": "9,9",
+      "Startup": "15",
+      "Block": "-9",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": "nc from 1st hit"
+    },
+    {
+      "Command": "2, 2, 2",
+      "Level": "m,m,h",
+      "Damage": "9,9,7",
+      "Startup": "15",
+      "Block": "-8",
+      "Hit": "-2",
+      "CH": "-2",
+      "Notes": ""
+    },
+    {
+      "Command": "2, 2, 2, 2",
+      "Level": "m,m,h,h",
+      "Damage": "9,9,7,7",
+      "Startup": "15",
+      "Block": "-7",
+      "Hit": "+7",
+      "CH": "+7",
+      "Notes": "nc from 3rd hit"
+    },
+    {
+      "Command": "2, 2, 2, 2, 2",
+      "Level": "m,m,h,y,m",
+      "Damage": "9,9,7,7,15",
+      "Startup": "15",
+      "Block": "-14",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "nc from 3rd hit"
+    },
+    {
+      "Command": "2, 2, f+2",
+      "Level": "m,m,m",
+      "Damage": "9,9,23",
+      "Startup": "15",
+      "Block": "-14",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": "Tail spin"
+    },
+    {
+      "Command": "2, 2, b+2",
+      "Level": "m, m, m(throw)",
+      "Damage": "9,9,5,(20)",
+      "Startup": "15 js",
+      "Block": "-11",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "3",
+      "Level": "h",
+      "Damage": "15",
+      "Startup": "14",
+      "Block": "-7",
+      "Hit": "-1",
+      "CH": "-1",
+      "Notes": ""
+    },
+    {
+      "Command": "4",
+      "Level": "h",
+      "Damage": "15",
+      "Startup": "12",
+      "Block": "-8",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
+      "Command": "4,2",
+      "Level": "h,m",
+      "Damage": "15,15",
+      "Startup": "12",
+      "Block": "-14",
+      "Hit": "-1",
+      "CH": "-1",
+      "Notes": ""
+    },
+    {
+      "Command": "1+2",
+      "Level": "h,m",
+      "Damage": "17,24",
+      "Startup": "18",
+      "Block": "-14",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Homing, Tail Spin"
+    },
+    {
+      "Command": "1+2~B",
+      "Level": "h",
+      "Damage": "17",
+      "Startup": "18",
+      "Block": "-9",
+      "Hit": "-3",
+      "CH": "-3",
+      "Notes": "Homing"
+    },
+    {
+      "Command": "f+2",
+      "Level": "m",
+      "Damage": "8(,25)",
+      "Startup": "20 js",
+      "Block": "-9",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "f+3",
+      "Level": "m",
+      "Damage": "14",
+      "Startup": "16",
+      "Block": "-9",
+      "Hit": "+9",
+      "CH": "+9",
+      "Notes": ""
+    },
+    {
+      "Command": "f+3, 2",
+      "Level": "m,m",
+      "Damage": "14,5(,20)",
+      "Startup": "16",
+      "Block": "-11",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "f+4",
+      "Level": "m",
+      "Damage": "13",
+      "Startup": "17",
+      "Block": "-8",
+      "Hit": "+8",
+      "CH": "+8",
+      "Notes": ""
+    },
+    {
+      "Command": "f+4, 2",
+      "Level": "m,m",
+      "Damage": "13,21",
+      "Startup": "17",
+      "Block": "-11",
+      "Hit": "+12",
+      "CH": "+12",
+      "Notes": "Tail spin"
+    },
+    {
+      "Command": "f+1+2",
+      "Level": "m",
+      "Damage": "24",
+      "Startup": "16",
+      "Block": "-19",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "f+1+4",
+      "Level": "m",
+      "Damage": "20",
+      "Startup": "23",
+      "Block": "-13",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Power Crush"
+    },
+    {
+      "Command": "d/f+1",
+      "Level": "m",
+      "Damage": "10",
+      "Startup": "13",
+      "Block": "-1",
+      "Hit": "+7",
+      "CH": "+7",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+1, 4",
+      "Level": "m,h",
+      "Damage": "10,20",
+      "Startup": "13 js",
+      "Block": "-5",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tail Spion"
+    },
+    {
+      "Command": "d/f+2",
+      "Level": "m",
+      "Damage": "15",
+      "Startup": "15",
+      "Block": "-20",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+3",
+      "Level": "m",
+      "Damage": "9",
+      "Startup": "16",
+      "Block": "-13",
+      "Hit": "-2",
+      "CH": "-2",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+3, 1",
+      "Level": "m,h",
+      "Damage": "9,7",
+      "Startup": "16",
+      "Block": "-10",
+      "Hit": "-3",
+      "CH": "-3",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+4",
+      "Level": "m",
+      "Damage": "12",
+      "Startup": "14",
+      "Block": "-7",
+      "Hit": "+4",
+      "CH": "+4",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+4, 2",
+      "Level": "m,h",
+      "Damage": "12,17",
+      "Startup": "14",
+      "Block": "-2",
+      "Hit": "+8",
+      "CH": "+8",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+4, 2, 4",
+      "Level": "m,h,h",
+      "Damage": "12,17,20",
+      "Startup": "14 js",
+      "Block": "-5",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tail Spin"
+    },
+    {
+      "Command": "d/f+4, 2, 2",
+      "Level": "m,h,m",
+      "Damage": "12,17,21",
+      "Startup": "14 js",
+      "Block": "-8",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "d/f+1+2",
+      "Level": "m",
+      "Damage": "27",
+      "Startup": "25",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tail Spin"
+    },
+    {
+      "Command": "d+1",
+      "Level": "m,m",
+      "Damage": "10,10",
+      "Startup": "17",
+      "Block": "-3",
+      "Hit": "+4",
+      "CH": "+4",
+      "Notes": ""
+    },
+    {
+      "Command": "d+2",
+      "Level": "l",
+      "Damage": "12",
+      "Startup": "20",
+      "Block": "-18",
+      "Hit": "-3",
+      "CH": "-3",
+      "Notes": ""
+    },
+    {
+      "Command": "d+2, 2",
+      "Level": "l,h",
+      "Damage": "12,23",
+      "Startup": "20",
+      "Block": "-9",
+      "Hit": "+10",
+      "CH": "KND",
+      "Notes": "Tail Spin"
+    },
+    {
+      "Command": "d or d/b+3",
+      "Level": "l",
+      "Damage": "13 cs",
+      "Startup": "16",
+      "Block": "-13",
+      "Hit": "-2",
+      "CH": "-2",
+      "Notes": ""
+    },
+    {
+      "Command": "d+4",
+      "Level": "l",
+      "Damage": "9",
+      "Startup": "19",
+      "Block": "-31",
+      "Hit": "-9",
+      "CH": "-9",
+      "Notes": ""
+    },
+    {
+      "Command": "d+4, 1",
+      "Level": "l,h",
+      "Damage": "9(13),20",
+      "Startup": "19",
+      "Block": "-12",
+      "Hit": "+4",
+      "CH": "+4",
+      "Notes": ""
+    },
+    {
+      "Command": "d+4 ,1, 1+2",
+      "Level": "l,h,m",
+      "Damage": "9(13),20,2,2(25)",
+      "Startup": "19",
+      "Block": "-18s",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+1",
+      "Level": "m",
+      "Damage": "7",
+      "Startup": "15",
+      "Block": "-6",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+1, 1+2",
+      "Level": "m,m,m",
+      "Damage": "7,7,10",
+      "Startup": "15",
+      "Block": "-5",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+1~F",
+      "Level": "m",
+      "Damage": "7",
+      "Startup": "15",
+      "Block": "-6",
+      "Hit": "0",
+      "CH": "0",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+2",
+      "Level": "l",
+      "Damage": "23",
+      "Startup": "24",
+      "Block": "-19",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+4",
+      "Level": "l",
+      "Damage": "9",
+      "Startup": "17",
+      "Block": "-12",
+      "Hit": "-1",
+      "CH": "-1",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+1+2",
+      "Level": "m",
+      "Damage": "25",
+      "Startup": "25",
+      "Block": "-16",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "d/b+1+2*",
+      "Level": "m",
+      "Damage": "28",
+      "Startup": "46",
+      "Block": "+2",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "b+1",
+      "Level": "h",
+      "Damage": "10",
+      "Startup": "12",
+      "Block": "-11",
+      "Hit": "0",
+      "CH": "0",
+      "Notes": ""
+    },
+    {
+      "Command": "b+1, 2",
+      "Level": "h,h",
+      "Damage": "10,21",
+      "Startup": "12",
+      "Block": "-9",
+      "Hit": "+7",
+      "CH": "+7",
+      "Notes": ""
+    },
+    {
+      "Command": "b+2",
+      "Level": "m",
+      "Damage": "13",
+      "Startup": "15",
+      "Block": "-9",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "b+2 when hit 1+2",
+      "Level": "m, throw",
+      "Damage": "13,6,14",
+      "Startup": "15",
+      "Block": "~",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "b+3",
+      "Level": "h",
+      "Damage": "14",
+      "Startup": "14",
+      "Block": "-12",
+      "Hit": "-1",
+      "CH": "-1",
+      "Notes": ""
+    },
+    {
+      "Command": "b+3, 1",
+      "Level": "h,m",
+      "Damage": "14,23",
+      "Startup": "14",
+      "Block": "-14",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "b+3~B",
+      "Level": "h, (special)",
+      "Damage": "14",
+      "Startup": "14",
+      "Block": "-8",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
+      "Command": "b+4",
+      "Level": "h",
+      "Damage": "17",
+      "Startup": "18",
+      "Block": "-7",
+      "Hit": "+7",
+      "CH": "+7",
+      "Notes": ""
+    },
+    {
+      "Command": "b+4, 1+2",
+      "Level": "h,m",
+      "Damage": "17,27",
+      "Startup": "20",
+      "Block": "-13",
+      "Hit": "KND",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "b+1+4",
+      "Level": "m",
+      "Damage": "20",
+      "Startup": "26",
+      "Block": "-11",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "b+2+3",
+      "Level": "m!",
+      "Damage": "50",
+      "Startup": "69",
+      "Block": "KND",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "u/b or u or u/f+1",
+      "Level": "h",
+      "Damage": "17",
+      "Startup": "14",
+      "Block": "-4",
+      "Hit": "+8",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "u/b or u or u/f+2 ",
+      "Level": "m",
+      "Damage": "21",
+      "Startup": "30 js9~",
+      "Block": "-8",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "u/b or u or u/f+3",
+      "Level": "m(,m)",
+      "Damage": "11(,23)",
+      "Startup": "17 js9~",
+      "Block": "-13",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "u/b or u or u/f+4",
+      "Level": "h",
+      "Damage": "20",
+      "Startup": "19 js9~",
+      "Block": "-5",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Homing, Tail Spin"
+    },
+    {
+      "Command": "u/b,b",
+      "Level": "special",
+      "Damage": "js10~",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "u/b or u or u/f",
+      "Level": "special",
+      "Damage": "js9~",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "During jump 1",
+      "Level": "m",
+      "Damage": "7",
+      "Startup": "9",
+      "Block": "-23",
+      "Hit": "-16",
+      "CH": "-16",
+      "Notes": ""
+    },
+    {
+      "Command": "During jump 2",
+      "Level": "m",
+      "Damage": "14",
+      "Startup": "10",
+      "Block": "-22",
+      "Hit": "-15",
+      "CH": "-15",
+      "Notes": ""
+    },
+    {
+      "Command": "(When hit in air) 2, 2",
+      "Level": "m,m",
+      "Damage": "14,14",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "(When hit in air) 2, 2, 2",
+      "Level": "m,m,m",
+      "Damage": "14,14,23",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": "Tail spin"
+    },
+    {
+      "Command": "(During jump) 3",
+      "Level": "m",
+      "Damage": "10",
+      "Startup": "10",
+      "Block": "-22",
+      "Hit": "-15",
+      "CH": "-15",
+      "Notes": ""
+    },
+    {
+      "Command": "(During jump) 4",
+      "Level": "m",
+      "Damage": "12",
+      "Startup": "12",
+      "Block": "-21",
+      "Hit": "-14",
+      "CH": "-14",
+      "Notes": ""
+    },
+    {
+      "Command": "(During jump) 1+2",
+      "Level": "m",
+      "Damage": "27",
+      "Startup": "41 js9~",
+      "Block": "+5",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "f, f+4",
+      "Level": "m",
+      "Damage": "15(,14,21)",
+      "Startup": "19",
+      "Block": "-14",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "f, f+1+2",
+      "Level": "m",
+      "Damage": "17",
+      "Startup": "15",
+      "Block": "-9",
+      "Hit": "+10",
+      "CH": "KND",
+      "Notes": "Tail Spin, Homing"
+    },
+    {
+      "Command": "f, f+3+4",
+      "Level": "h",
+      "Damage": "50",
+      "Startup": "30 js14~",
+      "Block": "-8",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "f, f, f+1+2 or wr+1+2",
+      "Level": "m",
+      "Damage": "25",
+      "Startup": "23 js3~",
+      "Block": "+11",
+      "Hit": "JG",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "FC+1",
+      "Level": "sm",
+      "Damage": "5",
+      "Startup": "10 cs",
+      "Block": "-5",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "FC+2",
+      "Level": "sm",
+      "Damage": "8",
+      "Startup": "11 cs",
+      "Block": "-9",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": ""
+    },
+    {
+      "Command": "FC+3",
+      "Level": "l",
+      "Damage": "12 cs",
+      "Startup": "16",
+      "Block": "-17",
+      "Hit": "-3",
+      "CH": "-3",
+      "Notes": ""
+    },
+    {
+      "Command": "FC+4",
+      "Level": "l",
+      "Damage": "10",
+      "Startup": "12 cs",
+      "Block": "-15",
+      "Hit": "-4",
+      "CH": "-4",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+1",
+      "Level": "m",
+      "Damage": "10",
+      "Startup": "13",
+      "Block": "-8",
+      "Hit": "+6",
+      "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+1, 2",
+      "Level": "m,m",
+      "Damage": "10,23",
+      "Startup": "13",
+      "Block": "-13",
+      "Hit": "+2",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "ws+2",
+      "Level": "m",
+      "Damage": "15",
+      "Startup": "15",
+      "Block": "-9",
+      "Hit": "-3",
+      "CH": "-3",
+      "Notes": ""
+    },
+    {
+      "Command": "ws+2, 2",
+      "Level": "m,m",
+      "Damage": "13,23",
+      "Startup": "15",
+      "Block": "-14",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": "Tail spin"
+    },
+    {
+      "Command": "ws+3",
+      "Level": "m",
+      "Damage": "12",
+      "Startup": "14",
+      "Block": "-7",
+      "Hit": "+9",
+      "CH": "+9",
+      "Notes": ""
+    },
+    {
+      "Command": "ws+3,2",
+      "Level": "m,m",
+      "Damage": "12,5(,20)",
+      "Startup": "14",
+      "Block": "-11",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "ws+4",
+      "Level": "m",
+      "Damage": "15",
+      "Startup": "11",
+      "Block": "-6",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": ""
+    },
+    {
+      "Command": "FC+d/f+2",
+      "Level": "l",
+      "Damage": "17",
+      "Startup": "20 cs",
+      "Block": "-13",
+      "Hit": "+4s",
+      "CH": "+13g",
+      "Notes": "Homing"
+    },
+    {
+      "Command": "1+2+3+4",
+      "Level": "",
+      "Damage": "",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "1+3+4",
+      "Level": "",
+      "Damage": "",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "SS+2",
+      "Level": "m",
+      "Damage": "21",
+      "Startup": "18",
+      "Block": "0",
+      "Hit": "5s",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "BT 1",
+      "Level": "h",
+      "Damage": "15",
+      "Startup": "8",
+      "Block": "-8",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
+      "Command": "BT 2",
+      "Level": "m",
+      "Damage": "16",
+      "Startup": "20",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "BT 3 or 4",
+      "Level": "h",
+      "Damage": "25",
+      "Startup": "10",
+      "Block": "-8",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "BT d+1 or d+2",
+      "Level": "sm",
+      "Damage": "10",
+      "Startup": "10",
+      "Block": "-2",
+      "Hit": "+9",
+      "CH": "+9",
+      "Notes": ""
+    },
+    {
+      "Command": "BT d+3 or d+4",
+      "Level": "l",
+      "Damage": "12",
+      "Startup": "10",
+      "Block": "-11",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
+      "Command": "f+3+4",
+      "Level": "",
+      "Damage": "",
+      "Startup": "cs",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "f+3+4, 1",
+      "Level": "m",
+      "Damage": "24",
+      "Startup": "18",
+      "Block": "-13",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Power crush, Wall bounce"
+    },
+    {
+      "Command": "f+3+4, 3+4",
+      "Level": "l",
+      "Damage": "17",
+      "Startup": "20 cs",
+      "Block": "-20",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "In rage d+1+2",
+      "Level": "m",
+      "Damage": "55",
+      "Startup": "20",
+      "Block": "-32",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "In rage f+2+3",
+      "Level": "m",
+      "Damage": "10(,30)",
+      "Startup": "18",
+      "Block": "+2",
+      "Hit": "throw",
+      "CH": "throw",
+      "Notes": ""
+    },
+    {
+      "Command": "",
+      "Level": "",
+      "Damage": "",
+      "Startup": "",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    }
+  ]
+}
