@@ -4,9 +4,8 @@ const cheerio = require('cheerio');
 function characterScraper(character, callback) {
   const url = `http://rbnorway.org/${character}-t7-frames/`;
 
-  let $;
   got(url).then((response) => {
-    $ = cheerio.load(response.body);
+    const $ = cheerio.load(response.body);
     const rawMoves = $('tr').text().split('\n');
 
     // Removes Table Headers
@@ -15,7 +14,8 @@ function characterScraper(character, callback) {
     }
 
     const moves = [];
-    while (rawMoves.length > 0) {
+    // If set to 0, an empty object is added to the end of the array
+    while (rawMoves.length > 1) {
       rawMoves.shift(); // Remove empty entry
       moves.push({
         'Command': rawMoves.shift(),
@@ -25,7 +25,7 @@ function characterScraper(character, callback) {
         'Block': rawMoves.shift(),
         'Hit': rawMoves.shift(),
         'CounterHit': rawMoves.shift(),
-        'Notes': rawMoves.shift(),
+        'Notes': rawMoves.shift(), // May be an empty string
       });
     }
     return moves;
