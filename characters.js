@@ -40,4 +40,5 @@ module.exports = [
   'shaheen',
   'steve',
   'xiaoyu',
-  'yoshimitsu'];
+  'yoshimitsu',
+];
