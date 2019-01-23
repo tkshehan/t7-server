@@ -1,8 +1,9 @@
 const express = require('express');
 const morgan = require('morgan');
+const cron = require('node-cron');
 
 const {
-  updateCharacters, // Run Daily, automate
+  updateCharacters,
   lastUpdated,
   combineMoveLists,
 } = require('./characters');
@@ -63,6 +64,10 @@ function closeServer() {
 }
 
 if (require.main === module) {
+  updateCharacters();
+  cron.schedule('1 */12 * * *', function() {
+    updateCharacters(); // Every 12 Hours
+  });
   runServer();
 }
 
