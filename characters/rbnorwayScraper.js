@@ -37,22 +37,22 @@ function rbnorwayScraper(character, callback) {
       };
     });
 
-    throws.shift(); // Remove table header
-    throws = throws.map((move) => {
-      return {
-        'Command': move[0],
-        'Level': move[1],
-        'Damage': move[2],
-        'Startup': move[3],
-        'Break': move[4],
-        'BreakFrame': move[5],
-        'Notes': move[6],
-      };
-    });
+    const obj = {character, moves};
 
-    const obj = {character, moves, throws};
-    if (obj.throws.length === 0) {
-      delete obj.throws;
+    throws.shift(); // Remove table header
+    if (throws.length > 0) {
+      throws = throws.map((move) => {
+        return {
+          'Command': move[0],
+          'Level': move[1],
+          'Damage': move[2],
+          'Startup': move[3],
+          'Break': move[4],
+          'BreakFrame': move[5],
+          'Notes': move[6],
+        };
+      });
+      obj.throws = throws;
     }
 
     return obj;
