@@ -1,18 +1,19 @@
 {
   "name": "tekken7-frames",
   "version": "1.0.0",
-  "description": "",
-  "main": "scraper.js",
+  "description": "rbnorway Frame Data scraper and api",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas Shehan",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
-    "got": "^9.6.0"
+    "got": "^9.6.0",
+    "morgan": "^1.9.1"
   }
 }
