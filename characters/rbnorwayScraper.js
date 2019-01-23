@@ -51,7 +51,7 @@ function rbnorwayScraper(character, callback) {
     });
 
     const obj = {character, moves, throws};
-    if (throws.length === 0) {
+    if (obj.throws.length === 0) {
       delete obj.throws;
     }
 
