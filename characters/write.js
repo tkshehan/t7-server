@@ -34,7 +34,11 @@ function updateVersion() {
       JSON.stringify({updated: date.toUTCString()}, null, 2),
       'utf8',
       (err) => {
-        if (err) console.log(err);
+        if (err) {
+          console.log(err);
+        } else {
+          console.log('Updated: ' + date.toUTCString());
+        }
       }
   );
 }
