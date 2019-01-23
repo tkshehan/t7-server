@@ -12,14 +12,14 @@ function updateCharacters() {
 }
 
 function combineMoveLists(callBack) {
-  const moveLists = [];
+  const moveLists = {};
   characters.forEach((character) => {
     fs.readFile(`./data/${character}.json`, 'utf8', (err, data) => {
       if (err) console.log(err);
       data = JSON.parse(data);
-      moveLists.push(data);
+      moveLists[character] = data;
 
-      if (moveLists.length === characters.length) {
+      if (Object.keys(moveLists).length === characters.length) {
         callBack(moveLists);
       }
     });
