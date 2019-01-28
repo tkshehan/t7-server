@@ -1216,9 +1216,9 @@
       "Level": "h!",
       "Damage": "12",
       "Startup": "28",
-      "Block": "+7g",
-      "Hit": "+7g",
-      "CH": "+7g",
+      "Block": "+7g~+17g",
+      "Hit": "+7g~+17g",
+      "CH": "+7g~+17g",
       "Notes": " "
     }
   ]
