@@ -1064,7 +1064,7 @@
     {
       "Command": "b+3",
       "Level": "m",
-      "Damage": "16",
+      "Damage": "10",
       "Startup": "18",
       "Block": "-6",
       "Hit": "+6s",
@@ -1074,7 +1074,7 @@
     {
       "Command": "b+3, 4",
       "Level": "m, h",
-      "Damage": "16,17",
+      "Damage": "10,17",
       "Startup": "18",
       "Block": "-8~-7",
       "Hit": "KND",
