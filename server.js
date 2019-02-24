@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const cron = require('node-cron');
 
 const {
@@ -11,6 +12,9 @@ const {
 const {PORT} = require('./config');
 const app = express();
 
+// CORS
+app.use(cors());
+
 // Logging
 app.use(morgan('common'));
 
@@ -18,7 +22,7 @@ app.use(morgan('common'));
 app.use('/version/', (req, res) => {
   lastUpdated((data) => {
     return res.status(200)
-        .json(data);
+      .json(data);
   });
 });
 
@@ -26,19 +30,19 @@ app.use('/version/', (req, res) => {
 app.use('/frame-data/', (req, res) => {
   combineMoveLists((list) => {
     return res.status(200)
-        .json(list);
+      .json(list);
   });
 });
 
 // Root
 app.use('/', (req, res) => {
   return res.status(200)
-      .json({
-        'endpoints': {
-          '/version': 'Check The Last Date Updated',
-          '/frame-data': 'Retrieve All Frame Data',
-        },
-      });
+    .json({
+      'endpoints': {
+        '/version': 'Check The Last Date Updated',
+        '/frame-data': 'Retrieve All Frame Data',
+      },
+    });
 });
 
 // 404 Error
