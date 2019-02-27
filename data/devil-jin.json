@@ -1005,7 +1005,7 @@
       "Command": "FLY 3",
       "Level": "m (TJ)",
       "Damage": "30",
-      "Startup": "15~21a (55~) js1~ &#x8F2A;&#x5EFB;~20F",
+      "Startup": "15~21a (55~) js1~ ~20F",
       "Block": "-15~-9",
       "Hit": "KND",
       "CH": "KND",

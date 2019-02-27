@@ -1614,7 +1614,7 @@
     {
       "Command": "Opponent Down d+3+4",
       "Level": "l(On grounded opponent)",
-      "Damage": "16(&#x7ACB;&#x3061;20)",
+      "Damage": "16(20)",
       "Startup": "17~18",
       "Block": "-17~-16",
       "Hit": "-8~-7s",

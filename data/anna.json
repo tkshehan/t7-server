@@ -2042,7 +2042,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt;  3, 4,3, 1+2",
+      "Command": "→  3, 4,3, 1+2",
       "Level": " ",
       "Damage": "30",
       "Startup": " ",
@@ -2052,7 +2052,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; 1, 3, 2, 1",
+      "Command": "→ 1, 3, 2, 1",
       "Level": " ",
       "Damage": "18",
       "Startup": " ",
@@ -2062,7 +2062,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; -&gt; 3, 1, 4, 1+2, 1+2",
+      "Command": "→ → 3, 1, 4, 1+2, 1+2",
       "Level": " ",
       "Damage": "25",
       "Startup": " ",
@@ -2072,7 +2072,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; -&gt; 2, 1, 3, 4, 1+2",
+      "Command": "→ → 2, 1, 3, 4, 1+2",
       "Level": " ",
       "Damage": "25",
       "Startup": " ",
@@ -2082,7 +2082,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; -&gt; 2, 3, 1+2, 3+4, 1+2",
+      "Command": "→ → 2, 3, 1+2, 3+4, 1+2",
       "Level": " ",
       "Damage": "30",
       "Startup": " ",
@@ -2092,7 +2092,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; 1+3, 3, 1+2",
+      "Command": "→ 1+3, 3, 1+2",
       "Level": " ",
       "Damage": "25",
       "Startup": " ",
@@ -2102,7 +2102,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; -&gt; 4, 3, 4, 3+4, 1+2",
+      "Command": "→ → 4, 3, 4, 3+4, 1+2",
       "Level": " ",
       "Damage": "30",
       "Startup": " ",
@@ -2112,7 +2112,7 @@
       "Notes": " "
     },
     {
-      "Command": "-&gt; -&gt; 1+2, 4, 3, 1+2, 1+2, 1+3",
+      "Command": "→ → 1+2, 4, 3, 1+2, 1+2, 1+3",
       "Level": " ",
       "Damage": "28",
       "Startup": " ",

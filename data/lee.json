@@ -1562,9 +1562,9 @@
       "Notes": ""
     },
     {
-      "Command": "HMS 1, 1, &#x2026;",
+      "Command": "HMS 1, 1, …;",
       "Level": "h, h HMS)",
-      "Damage": "10,10, &#x2026;",
+      "Damage": "10,10, …;",
       "Startup": "12",
       "Block": "-1",
       "Hit": "+7",
@@ -1572,7 +1572,7 @@
       "Notes": ""
     },
     {
-      "Command": "HMS 1, 1, &#x2026;, f, n (Cancel)",
+      "Command": "HMS 1, 1, …;, f, n (Cancel)",
       "Level": "(MS)",
       "Damage": "10,",
       "Startup": "12s",

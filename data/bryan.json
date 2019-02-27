@@ -1504,7 +1504,7 @@
     {
       "Command": "After TNT u/b+1+2, ,",
       "Level": "mm",
-      "Damage": "5,2&#xFF5E;",
+      "Damage": "5,2～",
       "Startup": "15,27",
       "Block": "-",
       "Hit": "KND",

@@ -444,7 +444,7 @@
     {
       "Command": "d/f+3, 1* (Cancel)",
       "Level": "m, !",
-      "Damage": "13,27&#xFF5E;",
+      "Damage": "13,27～",
       "Startup": "17~18",
       "Block": "0~+1 OC",
       "Hit": "0~+1 OC",

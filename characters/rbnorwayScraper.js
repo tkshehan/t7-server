@@ -20,11 +20,23 @@ function rbnorwayScraper(character, callback) {
       moves.push(move);
     });
 
-    // Filter out any <br> tags and other markup
+    // Filter out any markdown
     moves = moves.map((array) => {
       return array.map(text => {
+        // Filter out <br> tags
         text = text.replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ');
-        return text.replace('&#x2013;', '-');
+        return text.replace('&#x2013;', '-')
+          .replace('&#x2019;', `'`)
+          .replace('&#xFF5E;', '～')
+          .replace('&#x5EFB;', '')
+          .replace('&#x8F2A;', '')
+          .replace('&#x4E2D;', '')
+          .replace('&#x2026', '…')
+          .replace('&#x7ACB;', '')
+          .replace('&#x3061;', '')
+          // This is meant to run twice to catch multiple occurences
+          .replace('-&gt;', '→')
+          .replace('-&gt;', '→')
       });
     })
 

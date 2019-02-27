@@ -26,9 +26,9 @@
       "Level": "m, m(Throw)",
       "Damage": "30,5",
       "Startup": "15~16 (18~)",
-      "Block": "&#x4E2D;Throw(KND)",
-      "Hit": "&#x4E2D;Throw(KND)",
-      "CH": "&#x4E2D;Throw(KND)",
+      "Block": "Throw(KND)",
+      "Hit": "Throw(KND)",
+      "CH": "Throw(KND)",
       "Notes": "Rage art"
     },
     {
@@ -444,7 +444,7 @@
     {
       "Command": "d/f+1+2 or FC+d/f+1+2",
       "Level": "(Special)(lReturns move)",
-      "Damage": "20&#xFF5E;",
+      "Damage": "20～",
       "Startup": "12(s)",
       "Block": "",
       "Hit": " Attack returned(KND)",
