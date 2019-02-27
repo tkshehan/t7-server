@@ -964,7 +964,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1",
       "Level": "mm, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,<br>2",
+      "Damage": "5,2,2,2,2,2, 2",
       "Startup": "15",
       "Block": "-13",
       "Hit": "-3",
@@ -974,7 +974,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2",
       "Level": "mm, m, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,<br>2,2",
+      "Damage": "5,2,2,2,2,2, 2,2",
       "Startup": "15",
       "Block": "-16",
       "Hit": "-6",
@@ -984,7 +984,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1",
       "Level": "mm, m, m, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,2,<br>2,2,2",
+      "Damage": "5,2,2,2,2,2,2, 2,2,2",
       "Startup": "15",
       "Block": "-13",
       "Hit": "-3",
@@ -994,7 +994,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2",
       "Level": "mm, m, m, m, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,<br>2,2,2,2",
+      "Damage": "5,2,2,2,2,2, 2,2,2,2",
       "Startup": "15",
       "Block": "-16",
       "Hit": "-6",
@@ -1004,7 +1004,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1",
       "Level": "mm, m, m, m, m, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,<br>2,2,2,2,2",
+      "Damage": "5,2,2,2,2,2, 2,2,2,2,2",
       "Startup": "15",
       "Block": "-32",
       "Hit": "-15",
@@ -1014,7 +1014,7 @@
     {
       "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 4",
       "Level": "mm, m, m, m, m, m, m, m, m, m, m",
-      "Damage": "5,2,2,2,2,2,<br>2,2,2,2,2,14",
+      "Damage": "5,2,2,2,2,2, 2,2,2,2,2,14",
       "Startup": "15",
       "Block": "-35",
       "Hit": "KND",
@@ -1474,7 +1474,7 @@
     {
       "Command": "After TNT f+2, 1, 4, 2, 1, 4",
       "Level": "m, m, m, h, h, m (TJ)",
-      "Damage": "10,12,16,5,5,<br>10",
+      "Damage": "10,12,16,5,5, 10",
       "Startup": "js16~",
       "Block": "-136~-137",
       "Hit": "KND",
@@ -1484,7 +1484,7 @@
     {
       "Command": "After TNT f+2, 1, 4, 2, 1, 4, 2",
       "Level": "m, m, m, h, h, m (TJ), h",
-      "Damage": "10,12,16,5,5,<br>10,28",
+      "Damage": "10,12,16,5,5, 10,28",
       "Startup": "16~",
       "Block": "+4",
       "Hit": "KND",
@@ -1510,16 +1510,6 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

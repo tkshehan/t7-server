@@ -34,7 +34,7 @@
     {
       "Command": "in rage d/f+3+4, When hit 1+2",
       "Level": "mmm, h",
-      "Damage": "12,12,25,<br>62(74)",
+      "Damage": "12,12,25, 62(74)",
       "Startup": "17,46, 78~80",
       "Block": "",
       "Hit": "KND",
@@ -424,7 +424,7 @@
     {
       "Command": "d+3+4:d+3+4, F, 3+4",
       "Level": "lll, hml, (Special), m (TJ)",
-      "Damage": "10,5,5,7,7,7<br>,30",
+      "Damage": "10,5,5,7,7,7 ,30",
       "Startup": "js1~",
       "Block": "-8~-4",
       "Hit": "KND",
@@ -1030,16 +1030,6 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

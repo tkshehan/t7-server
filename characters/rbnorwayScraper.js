@@ -20,6 +20,13 @@ function rbnorwayScraper(character, callback) {
       moves.push(move);
     });
 
+    // Filter out any <br> tags
+    moves = moves.map((array) => {
+      return array.map(text => {
+        return text.replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ');
+      })
+    })
+
     let throws = moves.filter((array) => array.length === 7)
       .filter((array) => array[0] !== '<b>Command</b>');
 

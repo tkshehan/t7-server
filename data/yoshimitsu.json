@@ -294,7 +294,7 @@
     {
       "Command": "f+2, D/B+2, 2, 2, 2, 2, 2",
       "Level": "h, m, m, m, m, m, m",
-      "Damage": "24,10,9,8,6,5,<br>4",
+      "Damage": "24,10,9,8,6,5, 4",
       "Startup": "17 RG",
       "Block": "-49~-46",
       "Hit": "-38~-35",
@@ -654,7 +654,7 @@
     {
       "Command": "d+1+4, B+1, 1, 1, 1 (four spins)",
       "Level": "!, !, !, !, !",
-      "Damage": "81,24,27,28,<br>37",
+      "Damage": "81,24,27,28, 37",
       "Startup": "30 RG",
       "Block": "CS",
       "Hit": "CS",
@@ -664,7 +664,7 @@
     {
       "Command": "d+1+4, B+1, 1, 1, 1, 1 (five spins)",
       "Level": "!, !, !, !, !, !",
-      "Damage": "81,24,27,28,<br>37,40",
+      "Damage": "81,24,27,28, 37,40",
       "Startup": "30 RG",
       "Block": "CS",
       "Hit": "CS",
@@ -1594,7 +1594,7 @@
     {
       "Command": "WS+1, 2, D/B+2, 2, 2, 2",
       "Level": "m, h, m, m, m, m",
-      "Damage": "20,24,10,9,8,<br>6",
+      "Damage": "20,24,10,9,8, 6",
       "Startup": "14~15 RC",
       "Block": "-9~-8",
       "Hit": "+2~+3",
@@ -1604,7 +1604,7 @@
     {
       "Command": "WS+1, 2, D/B+2, 2, 2, 2, 2",
       "Level": "m, h, m, m, m, m, m",
-      "Damage": "20,24,10,9,8,<br>6,5",
+      "Damage": "20,24,10,9,8, 6,5",
       "Startup": "14~15 RC",
       "Block": "-9~-8",
       "Hit": "+2~+3",
@@ -1614,7 +1614,7 @@
     {
       "Command": "WS+1, 2, D/B+2, 2, 2, 2, 2, 2",
       "Level": "m, h, m, m, m, m, m, m",
-      "Damage": "20,24,10,9,8,6,<br>5,4",
+      "Damage": "20,24,10,9,8,6, 5,4",
       "Startup": "14~15 Air, RG",
       "Block": "-49~-46",
       "Hit": "-38~-35",
@@ -2910,16 +2910,6 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

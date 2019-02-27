@@ -1032,16 +1032,6 @@
       "Notes": ""
     },
     {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
-    },
-    {
       "Command": "1",
       "Level": "h",
       "Damage": "7",

@@ -444,7 +444,7 @@
     {
       "Command": "f+3, 3, 3, 3, 3, 4",
       "Level": "m, m, h, h, h, h",
-      "Damage": "6,3,3,3,3,<br>20",
+      "Damage": "6,3,3,3,3, 20",
       "Startup": "15",
       "Block": "-4~-3",
       "Hit": "KND",
@@ -454,7 +454,7 @@
     {
       "Command": "f+3, 3, 3, 3, 3, 4, 3",
       "Level": "m, m, h, h, h, h, (HMS)",
-      "Damage": "6,3,3,3,3,<br>20",
+      "Damage": "6,3,3,3,3, 20",
       "Startup": "15",
       "Block": "-7~-6",
       "Hit": "KND",
@@ -1264,7 +1264,7 @@
     {
       "Command": "WS+3, 3, D+3, n+3, 3",
       "Level": "m, m, l, m, h",
-      "Damage": "16,11,8,10,<br>10",
+      "Damage": "16,11,8,10, 10",
       "Startup": "10~12",
       "Block": "-16",
       "Hit": "-5",
@@ -1294,7 +1294,7 @@
     {
       "Command": "WS+3, 3, D/F+3, n+3, 3",
       "Level": "m, m, m, h, m",
-      "Damage": "16,11,10,10,<br>10",
+      "Damage": "16,11,10,10, 10",
       "Startup": "10~12",
       "Block": "-19",
       "Hit": "-8",
@@ -1760,16 +1760,6 @@
       "Hit": "",
       "CH": "",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

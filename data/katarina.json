@@ -674,7 +674,7 @@
     {
       "Command": "u/f+4, 4, 4, 4, 4, 4",
       "Level": "m, m, m (TJ), h, h, m",
-      "Damage": "10,10,10,10,21,<br>25",
+      "Damage": "10,10,10,10,21, 25",
       "Startup": "1~21",
       "Block": "-9",
       "Hit": "KND",
@@ -900,16 +900,6 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

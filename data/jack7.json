@@ -584,7 +584,7 @@
     {
       "Command": "d/b+3, 4, 3, 4, 3",
       "Level": "l, l, l, l, l(CSK)",
-      "Damage": "15,12,12,12<br>,12",
+      "Damage": "15,12,12,12 ,12",
       "Startup": "21",
       "Block": "-19",
       "Hit": "-8",
@@ -594,7 +594,7 @@
     {
       "Command": "d/b+3, 4, 3, 4, 3, 4",
       "Level": "l, l, l, l, l, l(CSK)",
-      "Damage": "15,12,12,12<br>,12,12",
+      "Damage": "15,12,12,12 ,12,12",
       "Startup": "21",
       "Block": "-16",
       "Hit": "-5",
@@ -1550,16 +1550,6 @@
       "Hit": "-32~-30",
       "CH": "-32~-30",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

@@ -4,7 +4,7 @@
     {
       "Command": "in rage 1+2",
       "Level": "m",
-      "Damage": "55<br>(10,7,7,31)",
+      "Damage": "55 (10,7,7,31)",
       "Startup": "20 pc8~17",
       "Block": "-22",
       "Hit": "KND",
@@ -700,16 +700,6 @@
       "Hit": "Throw(KND)",
       "CH": "Throw(KND)",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

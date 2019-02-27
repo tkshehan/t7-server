@@ -19,7 +19,7 @@
       "Block": "-12~-10",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": "Rage art"
+      "Notes": "Rage drive"
     },
     {
       "Command": "1",
@@ -434,7 +434,7 @@
     {
       "Command": "d/b+1+2, 1+2, 2",
       "Level": "mm, mm, m",
-      "Damage": "5,5,5,5,24",
+      "Damage": "5,5,5,5,27",
       "Startup": "14~15",
       "Block": "-13~-12",
       "Hit": "Launch",
@@ -522,9 +522,9 @@
       "Notes": ""
     },
     {
-      "Command": "b+3+4",
+      "Command": "b+3+4 or WS+3+4",
       "Level": "m?",
-      "Damage": "23(,3)",
+      "Damage": "20(,3)",
       "Startup": "22~23a",
       "Block": "-28~-27",
       "Hit": "Launch",
@@ -777,9 +777,9 @@
       "Damage": "18",
       "Startup": "18s(19~)",
       "Block": "-8",
-      "Hit": "+3",
-      "CH": "+3",
-      "Notes": ""
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Wall bounce"
     },
     {
       "Command": "b, d/b, d, d/f+2, 1",
@@ -944,7 +944,7 @@
     {
       "Command": "WS+f+1, 2, d/f+1",
       "Level": "m, m, m",
-      "Damage": "12,12,15<br>(12,7,12)",
+      "Damage": "12,12,15 (12,7,12)",
       "Startup": "17~18s",
       "Block": "-1~0",
       "Hit": "+10~+11 (Launch (JG?))",
@@ -1124,7 +1124,7 @@
     {
       "Command": "SS+1+2",
       "Level": "m",
-      "Damage": "20",
+      "Damage": "23",
       "Startup": "22(31~)",
       "Block": "-9s",
       "Hit": "KND",
@@ -1283,10 +1283,10 @@
     },
     {
       "Command": "HBS d/b or d or d/f+1+2",
-      "Level": "m (TJ), (HBS)",
+      "Level": "m (TJ) (HBS)",
       "Damage": "22",
       "Startup": "16~20 (31~) js10~",
-      "Block": "-7~-3",
+      "Block": "-9~-5",
       "Hit": "0~+4",
       "CH": "+17~+21 (SH)",
       "Notes": ""
@@ -1600,16 +1600,6 @@
       "Hit": "",
       "CH": "",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",

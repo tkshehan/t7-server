@@ -869,7 +869,7 @@
       "Block": "-22",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Tail spin"
     },
     {
       "Command": "Jump qcf+1+2",
@@ -940,16 +940,6 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
-    },
-    {
-      "Command": "<b>Command</b>",
-      "Level": "<b>Hit level</b>",
-      "Damage": "<b>Damage</b>",
-      "Startup": "<b>Start up frame</b>",
-      "Block": "<b>Block frame</b>",
-      "Hit": "<b>Hit frame</b>",
-      "CH": "<b>Counter hit frame</b>",
-      "Notes": "Notes"
     },
     {
       "Command": "1",
