@@ -936,9 +936,9 @@
       "Level": "m (TJ), (RLX)",
       "Damage": "15",
       "Startup": "22~23 js8~",
-      "Block": "&#x2013;",
-      "Hit": "&#x2013;",
-      "CH": "&#x2013;",
+      "Block": "-",
+      "Hit": "-",
+      "CH": "-",
       "Notes": ""
     },
     {
@@ -946,7 +946,7 @@
       "Level": "m (TJ), (RLX)",
       "Damage": "15",
       "Startup": "20~23 js8~",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -1376,7 +1376,7 @@
       "Level": "l (TC), (HSP)",
       "Damage": "10",
       "Startup": "21~24 (22~)",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""

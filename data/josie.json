@@ -1356,7 +1356,7 @@
       "Level": "m (TJ)",
       "Damage": "15",
       "Startup": "23(29,35) 9~33",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""
@@ -1366,7 +1366,7 @@
       "Level": "m (TJ)",
       "Damage": "18",
       "Startup": "23(29,35) 9~33",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""

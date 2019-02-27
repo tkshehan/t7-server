@@ -206,9 +206,9 @@
       "Level": "m",
       "Damage": "5",
       "Startup": "20",
-      "Block": "&#x2013;",
-      "Hit": "&#x2013;",
-      "CH": "&#x2013;",
+      "Block": "-",
+      "Hit": "-",
+      "CH": "-",
       "Notes": ""
     },
     {
@@ -256,9 +256,9 @@
       "Level": "m, m",
       "Damage": "10,5",
       "Startup": "13~14",
-      "Block": "&#x2013;",
-      "Hit": "&#x2013;",
-      "CH": "&#x2013;",
+      "Block": "-",
+      "Hit": "-",
+      "CH": "-",
       "Notes": ""
     },
     {
@@ -1336,7 +1336,7 @@
       "Level": "m (TJ)",
       "Damage": "10",
       "Startup": "19(~)",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+?",
       "CH": "",
       "Notes": ""
@@ -1356,7 +1356,7 @@
       "Level": "m (TJ)",
       "Damage": "10",
       "Startup": "19(~)(~)(~)",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+?",
       "CH": "",
       "Notes": ""
@@ -1366,7 +1366,7 @@
       "Level": "m (TJ)",
       "Damage": "20",
       "Startup": "19(~)(~)(~)(~)",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "",
       "Notes": ""

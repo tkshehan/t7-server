@@ -6,7 +6,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "20?",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -16,7 +16,7 @@
       "Level": "Attack returned",
       "Damage": "",
       "Startup": "20?",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Rage art"
@@ -106,7 +106,7 @@
       "Level": "h, h, (KIN)",
       "Damage": "13,10",
       "Startup": "10",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""
@@ -2676,7 +2676,7 @@
       "Level": "m (TC), h",
       "Damage": "16,22",
       "Startup": "24~25",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+k",
       "CH": "",
       "Notes": "Tail spin"

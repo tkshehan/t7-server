@@ -1506,7 +1506,7 @@
       "Level": "mm",
       "Damage": "5,2&#xFF5E;",
       "Startup": "15,27",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""

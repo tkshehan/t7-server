@@ -20,11 +20,12 @@ function rbnorwayScraper(character, callback) {
       moves.push(move);
     });
 
-    // Filter out any <br> tags
+    // Filter out any <br> tags and other markup
     moves = moves.map((array) => {
       return array.map(text => {
-        return text.replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ');
-      })
+        text = text.replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ');
+        return text.replace('&#x2013;', '-');
+      });
     })
 
     let throws = moves.filter((array) => array.length === 7)

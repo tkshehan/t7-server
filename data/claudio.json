@@ -836,7 +836,7 @@
       "Level": "h",
       "Damage": "",
       "Startup": "12",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "KND",
       "Notes": ""
@@ -1106,7 +1106,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "13?",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""
@@ -1166,7 +1166,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "14",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""
@@ -1176,7 +1176,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "13",
-      "Block": "&#x2013;",
+      "Block": "-",
       "Hit": "+",
       "CH": "+",
       "Notes": ""
