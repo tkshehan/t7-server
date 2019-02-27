@@ -20,10 +20,13 @@ function rbnorwayScraper(character, callback) {
       moves.push(move);
     });
 
-    let throws = moves.filter((array) => array.length === 7);
-    moves = moves.filter((array) => array.length === 8);
+    let throws = moves.filter((array) => array.length === 7)
+      .filter((array) => array[0] !== '<b>Command</b>');
 
-    moves.shift(); // Remove table header
+    moves = moves
+      .filter((array) => array.length === 8)
+      .filter((array) => array[0] !== '<b>Command</b>');
+
     moves = moves.map((move) => {
       return {
         'Command': move[0],
@@ -39,7 +42,6 @@ function rbnorwayScraper(character, callback) {
 
     const obj = {character, moves};
 
-    throws.shift(); // Remove table header
     if (throws.length > 0) {
       throws = throws.map((move) => {
         return {
