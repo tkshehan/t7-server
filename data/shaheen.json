@@ -223,7 +223,7 @@
     },
     {
       "Command": "f+2, 4, D/F",
-      "Level": "m, l, (SNK)",
+      "Level": "h, l, (SNK)",
       "Damage": "12,13",
       "Startup": "12",
       "Block": "-4~-3",
@@ -233,7 +233,7 @@
     },
     {
       "Command": "f+2, 4, d/f, d/b (Cancel)",
-      "Level": "m, l, (Special)",
+      "Level": "h, l, (Special)",
       "Damage": "12,13",
       "Startup": "12s",
       "Block": "-18~-17",

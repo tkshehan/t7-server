@@ -1436,7 +1436,7 @@
       "Level": "m (TJ)",
       "Damage": "30",
       "Startup": "20~21a (23~) js5~17",
-      "Block": "0~+1",
+      "Block": "+4~+5",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""

@@ -22,23 +22,8 @@ function rbnorwayScraper(character, callback) {
 
     // Filter out any markdown
     moves = moves.map((array) => {
-      return array.map(text => {
-        // Filter out <br> tags
-        text = text.replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ');
-        return text.replace('&#x2013;', '-')
-          .replace('&#x2019;', `'`)
-          .replace('&#xFF5E;', '～')
-          .replace('&#x5EFB;', '')
-          .replace('&#x8F2A;', '')
-          .replace('&#x4E2D;', '')
-          .replace('&#x2026', '…')
-          .replace('&#x7ACB;', '')
-          .replace('&#x3061;', '')
-          // This is meant to run twice to catch multiple occurences
-          .replace('-&gt;', '→')
-          .replace('-&gt;', '→')
-      });
-    })
+      return array.map((text) => cleanText(text));
+    });
 
     let throws = moves.filter((array) => array.length === 7)
       .filter((array) => array[0] !== '<b>Command</b>');
@@ -83,6 +68,26 @@ function rbnorwayScraper(character, callback) {
   }).catch((error) => {
     throw error;
   });
+}
+
+function cleanText(text) {
+  let cleanedText = text
+    // Filter out <br> tags
+    .replace(/(<|&lt;)br\s*\/*(>|&gt;)/g, ' ')
+    // Filter out html codes for symbols
+    .replace('&#x2013;', '-')
+    .replace('&#x2019;', `'`)
+    .replace('&#xFF5E;', '～')
+    .replace('&#x5EFB;', '')
+    .replace('&#x8F2A;', '')
+    .replace('&#x4E2D;', '')
+    .replace('&#x2026', '…')
+    .replace('&#x7ACB;', '')
+    .replace('&#x3061;', '')
+    // Run twice for anna
+    .replace('-&gt;', '→')
+    .replace('-&gt;', '→')
+  return cleanedText;
 }
 
 module.exports = rbnorwayScraper;

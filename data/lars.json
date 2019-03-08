@@ -163,7 +163,7 @@
     },
     {
       "Command": "f+1, 2",
-      "Level": "h, m, (SEN)",
+      "Level": "h, m",
       "Damage": "10,11",
       "Startup": "13",
       "Block": "-5",
@@ -172,11 +172,31 @@
       "Notes": ""
     },
     {
+      "Command": "f+1, 2, B",
+      "Level": "h, m (SEN)",
+      "Damage": "10,11",
+      "Startup": "13",
+      "Block": "-8",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": ""
+    },
+    {
       "Command": "f+1, 2, 3",
-      "Level": "h, m, m, (DEN)",
+      "Level": "h, m, m",
       "Damage": "10,11,20",
       "Startup": "13",
       "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "f+1, 2, 3, B",
+      "Level": "h, m, m, (DEN)",
+      "Damage": "10,11,20",
+      "Startup": "13",
+      "Block": "-12",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -199,6 +219,16 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
+      "Notes": ""
+    },
+    {
+      "Command": "f+2, 1, B",
+      "Level": "h, h (SEN)",
+      "Damage": "10,12",
+      "Startup": "12",
+      "Block": "-6",
+      "Hit": "+5",
+      "CH": "+5",
       "Notes": ""
     },
     {
@@ -256,7 +286,7 @@
       "Level": "m",
       "Damage": "20",
       "Startup": "15~16",
-      "Block": "-14~-13",
+      "Block": "-13~-12",
       "Hit": "CS",
       "CH": "CS",
       "Notes": ""
@@ -283,12 +313,12 @@
     },
     {
       "Command": "d/f+2",
-      "Level": "m?",
+      "Level": "m",
       "Damage": "15",
-      "Startup": "16",
+      "Startup": "16~17",
       "Block": "-8",
-      "Hit": "+3a",
-      "CH": "+3a",
+      "Hit": "+3~-4a",
+      "CH": "+3~-4a",
       "Notes": ""
     },
     {
@@ -498,7 +528,7 @@
       "Startup": "15~17",
       "Block": "-9~-7",
       "Hit": "+4~+6",
-      "CH": "+6~+8",
+      "CH": "KND",
       "Notes": "Homing, Tail spin"
     },
     {
@@ -556,10 +586,10 @@
       "Level": "m, h",
       "Damage": "14,20",
       "Startup": "17",
-      "Block": "-12~-11",
+      "Block": "-8~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Tail spin"
     },
     {
       "Command": "b+4",
@@ -589,7 +619,7 @@
       "Block": "-11~-10",
       "Hit": "+6k",
       "CH": "+6k",
-      "Notes": "Homing"
+      "Notes": "Homing, Tail spin"
     },
     {
       "Command": "b+2+3",
@@ -787,7 +817,7 @@
       "Damage": "10,17",
       "Startup": "13~14",
       "Block": "-12~-11s",
-      "Hit": "+2~+3s",
+      "Hit": "+3~+4s",
       "CH": "KND",
       "Notes": ""
     },
@@ -834,7 +864,7 @@
     {
       "Command": "Opponent Down d+3+4",
       "Level": "l",
-      "Damage": "16",
+      "Damage": "25",
       "Startup": "22~23",
       "Block": "-14~-13",
       "Hit": "-3~-2",
@@ -843,8 +873,8 @@
     },
     {
       "Command": "Opponent Down d+3+4*, F",
-      "Level": "l, (SEN)",
-      "Damage": "16",
+      "Level": "l (SEN)",
+      "Damage": "20",
       "Startup": "22~23",
       "Block": "-14~-13",
       "Hit": "-3~-2",
@@ -924,8 +954,18 @@
     {
       "Command": "f+3 or Form certain moves",
       "Level": "(Special)",
-      "Damage": "",
+      "Damage": "cs 4~10",
       "Startup": "14~15",
+      "Block": "",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
+    },
+    {
+      "Command": "DEN F",
+      "Level": "(SEN)",
+      "Damage": "",
+      "Startup": "",
       "Block": "",
       "Hit": "",
       "CH": "",
@@ -976,10 +1016,20 @@
       "Level": "m",
       "Damage": "25",
       "Startup": "27~30 (42~)",
-      "Block": "+6~+9",
+      "Block": "+4~+7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
+    },
+    {
+      "Command": "DEN 4, 3",
+      "Level": "l, m",
+      "Damage": "14,20",
+      "Startup": "21",
+      "Block": "-16",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": "Same as f, F+4, 3"
     },
     {
       "Command": "DEN 1+2",
@@ -1258,7 +1308,7 @@
       "Startup": "15~17",
       "Block": "-9~-7",
       "Hit": "+4~+6",
-      "CH": "+6~+8",
+      "CH": "KND",
       "Notes": "Homing, Tail spin"
     },
     {
