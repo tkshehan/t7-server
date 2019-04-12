@@ -336,8 +336,8 @@
       "Level": "m, h, l, (SAV)",
       "Damage": "12,13,13",
       "Startup": "13",
-      "Block": "-11~-10",
-      "Hit": "+3~+4",
+      "Block": "-12~-11",
+      "Hit": "+2~+3",
       "CH": "KND",
       "Notes": ""
     },

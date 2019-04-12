@@ -66,7 +66,7 @@ function rbnorwayScraper(character, callback) {
   }).then((moves) => {
     callback(moves);
   }).catch((error) => {
-    throw error;
+    console.log(`${error.name} at ${error.url}`);
   });
 }
 

@@ -925,7 +925,7 @@
       "Command": "SEN 2",
       "Level": "l",
       "Damage": "20",
-      "Startup": "22~23s cs12~",
+      "Startup": "19~20s cs12~",
       "Block": "-13~-12",
       "Hit": "+3~+4s",
       "CH": "KND",

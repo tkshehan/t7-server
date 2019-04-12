@@ -342,7 +342,7 @@
       "Notes": " "
     },
     {
-      "Command": "f+3",
+      "Command": "f+4",
       "Level": "m",
       "Damage": "13",
       "Startup": "15",
@@ -352,7 +352,7 @@
       "Notes": " "
     },
     {
-      "Command": "f+3, 1",
+      "Command": "f+4, 1",
       "Level": "m, m",
       "Damage": "13,23",
       "Startup": " ",
