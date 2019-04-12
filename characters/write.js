@@ -11,7 +11,7 @@ function writeCharacter(moves) {
     }
 
     // Check if the new data is valid
-    if (moves.moves.length() === 0) return; // Needs further checking
+    // if (moves.moves.length() === 0) return; // Needs further checking
 
     // Check if data is different from old data
     if (newData !== data) {
