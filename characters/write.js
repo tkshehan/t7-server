@@ -11,9 +11,11 @@ function writeCharacter(moves) {
     }
 
     // Check if the new data is valid
-    if (moves.moves.length() === 0) {
-      console.log('Do not update, test');
-    } // Needs further checking
+    if (moves.moves.length === 0) {
+      console.log(`Invalid data, not updating ${moves.character}`);
+      // Needs further checking
+      return;
+    }
 
     // Check if data is different from old data
     if (newData !== data) {
