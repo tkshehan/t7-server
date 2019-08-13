@@ -1,5 +1,9 @@
 const express = require('express');
 const morgan = require('morgan');
+
+const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+
 const cors = require('cors');
 const cron = require('node-cron');
 
@@ -9,14 +13,16 @@ const {
   combineMoveLists,
 } = require('./characters');
 
-const {PORT} = require('./config');
+const {DATABASE_URL, PORT} = require('./config');
 const app = express();
 
 // CORS
 app.use(cors());
-
 // Logging
 app.use(morgan('common'));
+
+const {frameDataRouter} = require('./frame-data');
+app.use('/api/frame-data', frameDataRouter);
 
 // Version Checking
 app.use('/version/', (req, res) => {
