@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const characters = require('./characters');
 const rbnorwayScraper = require('./rbnorwayScraper');
 const {writeCharacter} = require('./write');
@@ -11,23 +11,25 @@ function updateCharacters() {
   });
 }
 
-function combineMoveLists(callBack) {
-  const moveLists = {};
-  characters.forEach((character) => {
-    fs.readFile(`./data/${character}.json`, 'utf8', (err, data) => {
-      if (err) console.log(err);
-      data = JSON.parse(data);
-      moveLists[character] = data;
-
-      if (Object.keys(moveLists).length === characters.length) {
-        callBack(moveLists);
-      }
+async function combineMoveLists() {
+  const read = characters.map(readFile);
+  const combined = {}
+  await Promise.all(read)
+    .then((results) => {
+      results.forEach((data) => {
+        combined[data.character] = data;
+      });
     });
-  });
+  return combined;
+
+  async function readFile(character) {
+    const data = await fs.readFile(`./scraper/data/${character}.json`, 'utf8');
+    return JSON.parse(data);
+  };
 }
 
 function lastUpdated(callBack) {
-  fs.readFile('./data/version.json', 'utf8', (err, data) => {
+  fs.readFile('./scraper/data/version.json', 'utf8', (err, data) => {
     if (err) console.log(err);
     data = JSON.parse(data);
     callBack(data);

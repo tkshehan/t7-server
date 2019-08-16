@@ -513,7 +513,7 @@
     },
     {
       "Command": "d+1+2",
-      "Level": "m (TC)",
+      "Level": "m ",
       "Damage": "22",
       "Startup": "19",
       "Block": "-12",

@@ -13,6 +13,8 @@ const {
   combineMoveLists,
 } = require('./scraper');
 
+const convertData = require('./convertData');
+
 const {DATABASE_URL, PORT} = require('./config');
 const app = express();
 
@@ -33,11 +35,10 @@ app.use('/version/', (req, res) => {
 });
 
 // Get MoveLists
-app.use('/frame-data/', (req, res) => {
-  combineMoveLists((list) => {
-    return res.status(200)
-      .json(list);
-  });
+app.use('/frame-data/', async (req, res) => {
+  const list = await combineMoveLists();
+  return res.status(200)
+    .json(list);
 });
 
 // Root
@@ -91,7 +92,8 @@ function closeServer() {
 }
 
 if (require.main === module) {
-  updateCharacters();
+  convertData();
+  // updateCharacters();
   cron.schedule('1 */12 * * *', function() {
     updateCharacters(); // Every 12 Hours
   });

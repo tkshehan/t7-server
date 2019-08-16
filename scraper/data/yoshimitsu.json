@@ -14,12 +14,12 @@
     {
       "Command": "in rage u/b+1+4",
       "Level": "Attack returned",
-      "Damage": "",
-      "Startup": "20?",
+      "Damage": "20",
+      "Startup": "6~",
       "Block": "-",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": "Rage art"
+      "Notes": "Rage drive"
     },
     {
       "Command": "1",
@@ -86,9 +86,9 @@
       "Level": "h, (Special)",
       "Damage": "13",
       "Startup": "10",
-      "Block": "-19",
-      "Hit": "-13",
-      "CH": "-10",
+      "Block": "-13",
+      "Hit": "-7",
+      "CH": "-4",
       "Notes": ""
     },
     {
@@ -349,7 +349,7 @@
       "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "f+1+2",
@@ -576,8 +576,8 @@
       "Level": "m (TC), m",
       "Damage": "16,22",
       "Startup": "16~17",
-      "Block": "-14~-13",
-      "Hit": "+5~+6",
+      "Block": "-12~-11",
+      "Hit": "+7~+8",
       "CH": "CS",
       "Notes": ""
     },
@@ -606,8 +606,8 @@
       "Level": "m (TC), m, (Special)",
       "Damage": "16,22",
       "Startup": "16~17",
-      "Block": "-14~-13",
-      "Hit": "+5~+6",
+      "Block": "-12~-11",
+      "Hit": "+7~+8",
       "CH": "CS",
       "Notes": ""
     },
@@ -1094,20 +1094,20 @@
     {
       "Command": "u/f+1",
       "Level": "m (TJ)",
-      "Damage": "",
-      "Startup": "23~",
-      "Block": "-5,6?",
-      "Hit": "+6?s",
-      "CH": "KND",
+      "Damage": "25",
+      "Startup": "23 js9",
+      "Block": "-6",
+      "Hit": "+5s",
+      "CH": "JG",
       "Notes": ""
     },
     {
       "Command": "u/f+2",
       "Level": "l (TJ)",
-      "Damage": "25?",
+      "Damage": "20 js10",
       "Startup": "35s",
       "Block": "-16",
-      "Hit": "+8?",
+      "Hit": "+6g",
       "CH": "KND",
       "Notes": ""
     },
@@ -1444,7 +1444,7 @@
     {
       "Command": "f, n, d, d/f+1",
       "Level": "m",
-      "Damage": "27",
+      "Damage": "22",
       "Startup": "17~18 (17~)",
       "Block": "-15~-14",
       "Hit": "Launch",
@@ -1472,7 +1472,7 @@
       "Notes": "Tail spin"
     },
     {
-      "Command": "in rage f, n, d, d/f+1+2",
+      "Command": "in rage f, nf, n, d, d/f+1+2",
       "Level": "m (TC)?",
       "Damage": "",
       "Startup": "14(14~)",
@@ -1656,20 +1656,40 @@
       "Level": "m, m",
       "Damage": "16,27",
       "Startup": "16",
-      "Block": "-13~-12?s",
+      "Block": "-12s",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "JG",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+4",
+      "Level": "m",
+      "Damage": "14",
+      "Startup": "11",
+      "Block": "-6",
+      "Hit": "+5",
+      "CH": "+5",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+4, 1+2",
+      "Level": "m (KIN)",
+      "Damage": "14",
+      "Startup": "11",
+      "Block": "-6",
+      "Hit": "+5",
+      "CH": "+5",
       "Notes": ""
     },
     {
       "Command": "FC+d/f+4",
       "Level": "l (TC)",
-      "Damage": "20",
+      "Damage": "18",
       "Startup": "18 RC",
       "Block": "-21",
       "Hit": "+4?s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Homing"
     },
     {
       "Command": "FC+D/F+1 FC+d/b, b+1",
@@ -1854,8 +1874,8 @@
     {
       "Command": "KIN 3",
       "Level": "l (TJ)",
-      "Damage": "22",
-      "Startup": "25~32s (40~)",
+      "Damage": "17",
+      "Startup": "25~32s js10 cs24",
       "Block": "-16~-9",
       "Hit": "KND",
       "CH": "KND",
@@ -1864,7 +1884,7 @@
     {
       "Command": "KIN 4",
       "Level": "h",
-      "Damage": "28",
+      "Damage": "23",
       "Startup": "16(31~)",
       "Block": "0",
       "Hit": "KND",
@@ -1894,9 +1914,9 @@
     {
       "Command": "KIN 1+2",
       "Level": "mmmm (TJ)",
-      "Damage": "5,5,5,32",
+      "Damage": "4,4,4,24",
       "Startup": "12,19, 27,41 RBT (27~)",
-      "Block": "-6~-4",
+      "Block": "-6~-5",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -2498,7 +2518,7 @@
       "Startup": "17 RC",
       "Block": "-13",
       "Hit": "+3",
-      "CH": "+3",
+      "CH": "KND",
       "Notes": ""
     },
     {
@@ -2868,7 +2888,7 @@
       "Startup": "17 RC",
       "Block": "-13",
       "Hit": "+3",
-      "CH": "+3",
+      "CH": "KND",
       "Notes": ""
     },
     {
@@ -3029,7 +3049,7 @@
       "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "f, F+1",

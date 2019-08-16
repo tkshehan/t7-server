@@ -552,6 +552,16 @@
       "Notes": ""
     },
     {
+      "Command": "u+3+4",
+      "Level": "mm (TJ)",
+      "Damage": "5,10",
+      "Startup": "20 js9~",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
       "Command": "u/f+3(u+3 or u/b+3)",
       "Level": "m (TJ)",
       "Damage": "13(10,7)",

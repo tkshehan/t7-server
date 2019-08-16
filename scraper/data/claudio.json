@@ -232,16 +232,6 @@
       "Notes": ""
     },
     {
-      "Command": "d+1, 2",
-      "Level": "m, m",
-      "Damage": "16,16",
-      "Startup": "10",
-      "Block": "-9",
-      "Hit": "+4",
-      "CH": "+9",
-      "Notes": ""
-    },
-    {
       "Command": "f+3+4",
       "Level": "h",
       "Damage": "25",

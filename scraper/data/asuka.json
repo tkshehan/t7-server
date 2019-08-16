@@ -323,7 +323,7 @@
     },
     {
       "Command": "f+2",
-      "Level": "m?",
+      "Level": "m",
       "Damage": "20",
       "Startup": "17~18",
       "Block": "-18~-17",
@@ -333,7 +333,7 @@
     },
     {
       "Command": "f+2, d/b or d or D/F (Cancel)",
-      "Level": "(Special)?",
+      "Level": "(Special)",
       "Damage": "",
       "Startup": "s",
       "Block": "",
@@ -885,10 +885,10 @@
       "Command": "WS+3",
       "Level": "m",
       "Damage": "20",
-      "Startup": "19~20 js18~",
+      "Startup": "18~19 js18~",
       "Block": "-16~-15",
-      "Hit": "Launch (JG?)",
-      "CH": "Launch (JG?)",
+      "Hit": "JG",
+      "CH": "JG",
       "Notes": ""
     },
     {
@@ -1475,10 +1475,10 @@
       "Command": "WS+3",
       "Level": "m",
       "Damage": "20",
-      "Startup": "18 js18~",
+      "Startup": "18~19 js18~",
       "Block": "-16~-15",
-      "Hit": "Launch (JG?)",
-      "CH": "Launch (JG?)",
+      "Hit": "JG",
+      "CH": "JG",
       "Notes": ""
     },
     {

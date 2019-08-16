@@ -76,7 +76,7 @@
       "Level": "h, h, m (TJ)",
       "Damage": "7,10,20",
       "Startup": "js14~",
-      "Block": "0~+1",
+      "Block": "0~+1s",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""

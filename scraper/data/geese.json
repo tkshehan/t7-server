@@ -587,8 +587,8 @@
       "Damage": "11",
       "Startup": "14~15",
       "Block": "-9~-8",
-      "Hit": "+2~+3",
-      "CH": "+2~+3",
+      "Hit": "-1~0",
+      "CH": "-1~0",
       "Notes": ""
     },
     {
@@ -964,7 +964,7 @@
     {
       "Command": "MAX hcb+3+4",
       "Level": "Smmm",
-      "Damage": "10,5,12",
+      "Damage": "10,5,15",
       "Startup": "22~30 ,40,58 pc8~",
       "Block": "-2",
       "Hit": "KND",
