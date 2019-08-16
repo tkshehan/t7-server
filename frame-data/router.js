@@ -15,6 +15,13 @@ router.get('/', (res, req) => {
 });
 
 router.get('/:character', (req, res) => {
+  const requiredField = 'character';
+  if (!(requiredField in req.body)) {
+    const message = 'Missing character in request body';
+    console.error(message);
+    return res.status(400).send(message);
+  }
+
   FrameData.find({character: req.params.character})
     .then(character => res.json(character))
     .catch(err => {

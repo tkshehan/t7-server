@@ -11,7 +11,7 @@ const {
   updateCharacters,
   lastUpdated,
   combineMoveLists,
-} = require('./characters');
+} = require('./scraper');
 
 const {DATABASE_URL, PORT} = require('./config');
 const app = express();
@@ -58,18 +58,35 @@ app.use('*', (req, res) => {
 
 let server;
 
-function runServer(port = PORT) {
-  server = app.listen(port, () => {
-    console.log(`Your app is listening on port ${port}`);
+function runServer(databaseUrl, port = PORT) {
+  return new Promise((resolve, reject) => {
+    mongoose.connect(databaseUrl, (err) => {
+      if (err) {
+        return reject(err);
+      }
+      server = app.listen(port, () => {
+        console.log(`Your app is listening on port ${port}`);
+        resolve();
+      })
+        .on('error', (err) => {
+          mongoose.disconnect();
+          reject(err);
+        });
+    });
   });
 }
 
 function closeServer() {
-  console.log('Closing server');
-  server.close((err) => {
-    if (err) {
-      console.log(err);
-    }
+  return mongoose.disconnect().then(() => {
+    return new Promise((resolve, reject) => {
+      console.log('Closing server');
+      server.close((err) => {
+        if (err) {
+          return reject(err);
+        }
+        resolve();
+      });
+    });
   });
 }
 
@@ -78,7 +95,7 @@ if (require.main === module) {
   cron.schedule('1 */12 * * *', function() {
     updateCharacters(); // Every 12 Hours
   });
-  runServer();
+  runServer(DATABASE_URL).catch((err) => console.error(err));
 }
 
 module.exports = {runServer, app, closeServer};
