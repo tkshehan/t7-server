@@ -1,6 +1,6 @@
 # tekken-7-frames
 
-Currently Hosted at https://t7-frames.herokuapp.com/
+Currently Hosted at https://t7frames-server.herokuapp.com/
 
 Scrapes rbnorway every 12 hours for updated frame data, and delivers it through a very simple api.
 
