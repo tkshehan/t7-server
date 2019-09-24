@@ -943,12 +943,12 @@
     },
     {
       "Command": "qcb+3, 2, 3",
-      "Level": "l, m, l",
-      "Damage": "14,20,14",
+      "Level": "l, m, m",
+      "Damage": "14,20,22",
       "Startup": "18~19 (20~) 1~",
-      "Block": "-13~-12",
-      "Hit": "0~+1",
-      "CH": "KND",
+      "Block": "-13",
+      "Hit": "KND",
+      "CH": "Launch",
       "Notes": ""
     },
     {

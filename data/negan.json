@@ -82,6 +82,16 @@
       "Notes": " "
     },
     {
+      "Command": "1, 2*",
+      "Level": "h, h (INT)",
+      "Damage": "7,9",
+      "Startup": " ",
+      "Block": "-8",
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": " "
+    },
+    {
       "Command": "1, 2, 2",
       "Level": "h, h, m",
       "Damage": "7,9,22",
@@ -228,7 +238,7 @@
       "Startup": "14",
       "Block": "-7",
       "Hit": "+2",
-      "CH": "+16",
+      "CH": "+14",
       "Notes": " "
     },
     {
@@ -387,7 +397,7 @@
       "Damage": "13,12,20",
       "Startup": " ",
       "Block": "-11",
-      "Hit": "0s",
+      "Hit": "+4s",
       "CH": "KND",
       "Notes": " "
     },
@@ -686,7 +696,7 @@
       "Level": "m",
       "Damage": "22",
       "Startup": "18",
-      "Block": "-11",
+      "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
       "Notes": " "
@@ -724,11 +734,11 @@
     {
       "Command": "f, F+1+2",
       "Level": "m",
-      "Damage": "28",
+      "Damage": "21",
       "Startup": "28",
       "Block": "-6",
-      "Hit": "KND",
-      "CH": "KND",
+      "Hit": "cs",
+      "CH": "cs",
       "Notes": " "
     },
     {
@@ -794,11 +804,31 @@
     {
       "Command": "WS+1",
       "Level": "m",
-      "Damage": "15",
+      "Damage": "11",
       "Startup": "12",
       "Block": "-3",
       "Hit": "+8",
       "CH": "+8",
+      "Notes": " "
+    },
+    {
+      "Command": "WS+1, 2",
+      "Level": "m, m",
+      "Damage": "20",
+      "Startup": "",
+      "Block": "-11",
+      "Hit": "+7",
+      "CH": "+7",
+      "Notes": " "
+    },
+    {
+      "Command": "WS+1, 2*",
+      "Level": "m, m (INT)",
+      "Damage": "20",
+      "Startup": "",
+      "Block": "-11",
+      "Hit": "+7",
+      "CH": "+7",
       "Notes": " "
     },
     {
@@ -1016,9 +1046,9 @@
       "Level": "h",
       "Damage": "25",
       "Startup": "15 pc5",
-      "Block": "0",
-      "Hit": "KND",
-      "CH": "KND",
+      "Block": "-9",
+      "Hit": "Tail spin",
+      "CH": "Tail spin",
       "Notes": "Homing, Tail spin, Power crush"
     },
     {
@@ -1050,6 +1080,16 @@
       "Hit": "JG",
       "CH": "JG",
       "Notes": " "
+    },
+    {
+      "Command": "INT d+2",
+      "Level": "l",
+      "Damage": "20",
+      "Startup": "21",
+      "Block": "-13",
+      "Hit": "+3",
+      "CH": "+13g",
+      "Notes": "Unparryable"
     }
   ],
   "throws": [

@@ -66,9 +66,9 @@
       "Level": "l, m",
       "Damage": "10, 12",
       "Startup": " ",
-      "Block": "-2",
-      "Hit": "+5",
-      "CH": "+5",
+      "Block": "-1",
+      "Hit": "+7",
+      "CH": "+7",
       "Notes": " "
     },
     {
@@ -204,7 +204,7 @@
     {
       "Command": "f+3",
       "Level": "m",
-      "Damage": "15",
+      "Damage": "17",
       "Startup": "16",
       "Block": "-3",
       "Hit": "+4",
@@ -214,7 +214,7 @@
     {
       "Command": "f+3, 4",
       "Level": "m, m ",
-      "Damage": "15, 13",
+      "Damage": "17, 10",
       "Startup": " ",
       "Block": "-7",
       "Hit": "+3",
@@ -224,12 +224,22 @@
     {
       "Command": "f+3, 4, 3",
       "Level": "m, m, h",
-      "Damage": "15, 13, 22",
+      "Damage": "17, 10, 23",
       "Startup": " ",
       "Block": "-7",
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Tail Spin"
+    },
+    {
+      "Command": "f+3, 4, 3 + b",
+      "Level": "m, m,",
+      "Damage": "17, 10",
+      "Startup": " ",
+      "Block": "-15",
+      "Hit": "",
+      "CH": "",
+      "Notes": ""
     },
     {
       "Command": "f+4",
@@ -315,7 +325,7 @@
       "Command": "d/f+1+2",
       "Level": "m",
       "Damage": "20",
-      "Startup": "25",
+      "Startup": "23",
       "Block": "-7",
       "Hit": "KND",
       "CH": "KND",
@@ -384,11 +394,11 @@
     {
       "Command": "d+3",
       "Level": "l",
-      "Damage": "12",
+      "Damage": "11",
       "Startup": "17",
       "Block": "-12",
       "Hit": "+1",
-      "CH": "+1",
+      "CH": "+9",
       "Notes": " "
     },
     {
@@ -462,6 +472,16 @@
       "Notes": " "
     },
     {
+      "Command": "d+1+4 or d+2+3, 2",
+      "Level": "l",
+      "Damage": "20",
+      "Startup": "19",
+      "Block": "-13",
+      "Hit": "+5",
+      "CH": "KND",
+      "Notes": " "
+    },
+    {
       "Command": "d/b+2",
       "Level": "m",
       "Damage": "10",
@@ -476,9 +496,9 @@
       "Level": "m, m",
       "Damage": "10, 20",
       "Startup": " ",
-      "Block": "-16",
-      "Hit": "KND",
-      "CH": "KND",
+      "Block": "-13",
+      "Hit": "+21",
+      "CH": "+21",
       "Notes": " "
     },
     {
@@ -688,7 +708,7 @@
       "Startup": "21 js17",
       "Block": "-8",
       "Hit": "+5",
-      "CH": "KND",
+      "CH": "Launch",
       "Notes": " "
     },
     {

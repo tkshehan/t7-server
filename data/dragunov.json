@@ -182,11 +182,31 @@
       "Notes": ""
     },
     {
+      "Command": "3, 1, df",
+      "Level": "m, h",
+      "Damage": "10,8",
+      "Startup": "15~16",
+      "Block": "0",
+      "Hit": "+8",
+      "CH": "+8",
+      "Notes": ""
+    },
+    {
       "Command": "3, 1, 2",
       "Level": "m, h, m",
       "Damage": "10,8,24",
       "Startup": "15~16",
       "Block": "-12~-10",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
+      "Command": "3, 1, 4",
+      "Level": "m, h, h",
+      "Damage": "10,8,27",
+      "Startup": "15~16",
+      "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -467,7 +487,7 @@
       "Damage": "17",
       "Startup": "18~19s cs6~",
       "Block": "-13~-12",
-      "Hit": "-1",
+      "Hit": "0",
       "CH": "+13~+14g",
       "Notes": ""
     },
@@ -476,8 +496,8 @@
       "Level": "l",
       "Damage": "13",
       "Startup": "17~18",
-      "Block": "-16~-15",
-      "Hit": "-4~-3",
+      "Block": "-14~-13",
+      "Hit": "-3~-2",
       "CH": "0~+1s",
       "Notes": ""
     },
@@ -916,7 +936,7 @@
       "Level": "m",
       "Damage": "25",
       "Startup": "15~17 (18~)",
-      "Block": "+5~+7",
+      "Block": "+6~+8",
       "Hit": "KND",
       "CH": "TFU",
       "Notes": ""
@@ -976,10 +996,10 @@
       "Level": "m, m",
       "Damage": "12,20",
       "Startup": "12~13",
-      "Block": "-12~-11",
+      "Block": "-13~-12",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "WS+2",
@@ -1016,7 +1036,7 @@
       "Level": "m",
       "Damage": "28",
       "Startup": "12~13",
-      "Block": "-15~-14",
+      "Block": "-14~-13",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -1184,7 +1204,7 @@
     {
       "Command": "qcf+4",
       "Level": "m",
-      "Damage": "25,(10)",
+      "Damage": "23,(10)",
       "Startup": "17~18 (19~)",
       "Block": "-10~-9",
       "Hit": "Throw(KND)",
@@ -1367,7 +1387,7 @@
       "Damage": "17",
       "Startup": "18~19s cs6~",
       "Block": "-13~-12",
-      "Hit": "0~+1s",
+      "Hit": "0",
       "CH": "+13~+14g",
       "Notes": ""
     },

@@ -319,7 +319,7 @@
       "Block": "-14",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": " "
+      "Notes": "Wall bounce "
     },
     {
       "Command": "f+1+2 or WS+1+2",
@@ -966,7 +966,7 @@
       "Level": "h, h",
       "Damage": "10,20",
       "Startup": " ",
-      "Block": "-7",
+      "Block": "-2",
       "Hit": "KND",
       "CH": "KND",
       "Notes": " "
@@ -1282,6 +1282,26 @@
       "Notes": " "
     },
     {
+      "Command": "f, f, f+2",
+      "Level": "m",
+      "Damage": "10",
+      "Startup": "15",
+      "Block": "-14",
+      "Hit": "+1",
+      "CH": "+1",
+      "Notes": ""
+    },
+    {
+      "Command": "f, f, f+2, 3",
+      "Level": "m, m (TJ)",
+      "Damage": "10,28",
+      "Startup": "js26",
+      "Block": "-13",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": " "
+    },
+    {
       "Command": "f, f, f+3",
       "Level": "m (TJ)",
       "Damage": "20",
@@ -1334,7 +1354,7 @@
     {
       "Command": "WS+1",
       "Level": "m",
-      "Damage": "12",
+      "Damage": "13",
       "Startup": "13",
       "Block": "-3",
       "Hit": "7",
@@ -1746,9 +1766,9 @@
       "Level": "m (TJ)",
       "Damage": "15",
       "Startup": "15 js8",
-      "Block": "-16",
-      "Hit": "-5",
-      "CH": "-5",
+      "Block": "-15",
+      "Hit": "-4",
+      "CH": "-4",
       "Notes": " "
     },
     {
@@ -1756,9 +1776,9 @@
       "Level": "m (TJ)",
       "Damage": "20",
       "Startup": "15 js8",
-      "Block": "-16",
-      "Hit": "-5",
-      "CH": "-5",
+      "Block": "-15",
+      "Hit": "-4",
+      "CH": "-4",
       "Notes": " "
     },
     {
@@ -1766,7 +1786,7 @@
       "Level": "m (TJ)",
       "Damage": "20",
       "Startup": "15 js8",
-      "Block": "-14",
+      "Block": "-13",
       "Hit": "JG",
       "CH": "JG",
       "Notes": " "
@@ -1907,8 +1927,8 @@
       "Damage": "12,12",
       "Startup": "18 cs5",
       "Block": "-12",
-      "Hit": "KND",
-      "CH": "KND",
+      "Hit": "+6k",
+      "CH": "+6k",
       "Notes": " "
     },
     {

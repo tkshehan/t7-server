@@ -384,7 +384,7 @@
     {
       "Command": "3+4, 4",
       "Level": "mm (TJ), h",
-      "Damage": "5,12,17",
+      "Damage": "5,10,15",
       "Startup": "14~15, 26 14~",
       "Block": "-13~-11",
       "Hit": "+5~+7k",
@@ -536,9 +536,9 @@
       "Level": "l (TC)",
       "Damage": "15",
       "Startup": "21~22s cs6~",
-      "Block": "-13~-12",
-      "Hit": "+1~+2s",
-      "CH": "+1~+2s",
+      "Block": "-12",
+      "Hit": "+2s",
+      "CH": "+2s",
       "Notes": ""
     },
     {
@@ -548,7 +548,7 @@
       "Startup": "21~22 6~",
       "Block": "-9~-8",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "Launch",
       "Notes": "Tail spin"
     },
     {
@@ -884,7 +884,7 @@
     {
       "Command": "b+2, 3, d+4",
       "Level": "m, l, l?",
-      "Damage": "12,10,21",
+      "Damage": "12,10,23",
       "Startup": "16s",
       "Block": "-37",
       "Hit": "KND",
@@ -1106,7 +1106,7 @@
       "Level": "m, h",
       "Damage": "12,20",
       "Startup": "14~16 (15~)",
-      "Block": "-17",
+      "Block": "-15",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -1134,7 +1134,7 @@
     {
       "Command": "f, F+4",
       "Level": "m",
-      "Damage": "10",
+      "Damage": "12",
       "Startup": "16~17 (17~)",
       "Block": "-13~-12",
       "Hit": "-2~-1",
@@ -1147,9 +1147,9 @@
       "Damage": "10,10",
       "Startup": "16~17 (17~)",
       "Block": "-14",
-      "Hit": "BU",
-      "CH": "BU",
-      "Notes": ""
+      "Hit": "Launch",
+      "CH": "Launch",
+      "Notes": "Tail spin"
     },
     {
       "Command": "qcf+1",
@@ -1604,7 +1604,7 @@
     {
       "Command": "DSS 3",
       "Level": "h",
-      "Damage": "28",
+      "Damage": "30",
       "Startup": "19~21 (21~)",
       "Block": "-3~-1",
       "Hit": "KND",

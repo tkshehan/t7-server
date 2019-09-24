@@ -232,16 +232,6 @@
       "Notes": ""
     },
     {
-      "Command": "d+1, 2",
-      "Level": "m, m",
-      "Damage": "16,16",
-      "Startup": "10",
-      "Block": "-9",
-      "Hit": "+4",
-      "CH": "+9",
-      "Notes": ""
-    },
-    {
       "Command": "f+3+4",
       "Level": "h",
       "Damage": "25",
@@ -336,9 +326,9 @@
       "Level": "l (TC)",
       "Damage": "11",
       "Startup": "20s cs7~",
-      "Block": "-11",
-      "Hit": "0",
-      "CH": "0",
+      "Block": "-12",
+      "Hit": "-1",
+      "CH": "-1",
       "Notes": ""
     },
     {
@@ -367,8 +357,8 @@
       "Damage": "8,12",
       "Startup": "s cs1~",
       "Block": "-13(s)",
-      "Hit": "-2",
-      "CH": "-2",
+      "Hit": "+3",
+      "CH": "+3",
       "Notes": ""
     },
     {
@@ -396,9 +386,9 @@
       "Level": "l, h",
       "Damage": "7,10",
       "Startup": "15",
-      "Block": "-13",
-      "Hit": "-2",
-      "CH": "-2",
+      "Block": "-11",
+      "Hit": "0",
+      "CH": "0",
       "Notes": ""
     },
     {
@@ -414,9 +404,9 @@
     {
       "Command": "b+1",
       "Level": "m",
-      "Damage": "20",
+      "Damage": "25",
       "Startup": "18",
-      "Block": "-9",
+      "Block": "-5",
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Tail spin, Homing"
@@ -439,6 +429,16 @@
       "Block": "-4",
       "Hit": "+7",
       "CH": "+7",
+      "Notes": ""
+    },
+    {
+      "Command": "b+3, 3",
+      "Level": "m, m",
+      "Damage": "21",
+      "Startup": "13",
+      "Block": "-12",
+      "Hit": "+7",
+      "CH": "JG",
       "Notes": ""
     },
     {
@@ -509,7 +509,7 @@
       "Block": "-14~-13",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": "Homing"
+      "Notes": "Wall bounce, Homing"
     },
     {
       "Command": "b+2+3",
@@ -644,7 +644,7 @@
     {
       "Command": "WS+1, 1",
       "Level": "m, h",
-      "Damage": "12,12",
+      "Damage": "12,15",
       "Startup": "12~13",
       "Block": "-12",
       "Hit": "+9",
@@ -666,7 +666,7 @@
       "Level": "m",
       "Damage": "20",
       "Startup": "16",
-      "Block": "-9",
+      "Block": "-8",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -687,7 +687,7 @@
       "Damage": "20",
       "Startup": "20~21s (29~)",
       "Block": "-12~-11",
-      "Hit": "+3~+4s",
+      "Hit": "+6~+7s",
       "CH": "KND",
       "Notes": ""
     },
@@ -746,9 +746,9 @@
       "Level": "l (TC)",
       "Damage": "11",
       "Startup": "20s cs7~",
-      "Block": "-11",
-      "Hit": "0",
-      "CH": "0",
+      "Block": "-12",
+      "Hit": "-1",
+      "CH": "-1",
       "Notes": ""
     },
     {
@@ -846,7 +846,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "18",
-      "Block": "-9",
+      "Block": "-5",
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Tail spin, Homing"
@@ -997,14 +997,14 @@
       "Damage": "11,15",
       "Startup": "20",
       "Block": "-12",
-      "Hit": "-1",
-      "CH": "-1",
+      "Hit": "0",
+      "CH": "0",
       "Notes": ""
     },
     {
       "Command": "d+3",
       "Level": "l (TC)",
-      "Damage": "16",
+      "Damage": "12",
       "Startup": "16s",
       "Block": "-17",
       "Hit": "-3",
@@ -1014,7 +1014,7 @@
     {
       "Command": "d+4",
       "Level": "l (TC)",
-      "Damage": "9",
+      "Damage": "7",
       "Startup": "12 RC",
       "Block": "-13",
       "Hit": "-2",
@@ -1046,8 +1046,8 @@
       "Level": "l(TC?)",
       "Damage": "",
       "Startup": "24s",
-      "Block": "-17",
-      "Hit": "+1s",
+      "Block": "-15",
+      "Hit": "+3s",
       "CH": "KND",
       "Notes": ""
     },
@@ -1084,7 +1084,7 @@
     {
       "Command": "FC+3",
       "Level": "l (TC)",
-      "Damage": "13",
+      "Damage": "12",
       "Startup": "16s",
       "Block": "-17",
       "Hit": "-3",
@@ -1126,7 +1126,7 @@
       "Level": "m",
       "Damage": "",
       "Startup": "16",
-      "Block": "-5?",
+      "Block": "-8",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -1287,7 +1287,7 @@
       "Damage": "20",
       "Startup": "20~21s (29~)",
       "Block": "-12~-11",
-      "Hit": "+3~+4s",
+      "Hit": "+6~+7s",
       "CH": "KND",
       "Notes": ""
     },

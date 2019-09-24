@@ -208,7 +208,7 @@
       "Startup": "16~17",
       "Block": "-12~-11",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "Tail spin",
       "Notes": "Tail spin"
     },
     {
@@ -295,7 +295,7 @@
       "Command": "f+3+4, d+1+2",
       "Level": "(Special), (AOP)",
       "Damage": "",
-      "Startup": "20~21 (46~)",
+      "Startup": "18~19 (44~)",
       "Block": "",
       "Hit": "",
       "CH": "",
@@ -448,7 +448,7 @@
       "Startup": "15",
       "Block": "+2",
       "Hit": "+2s",
-      "CH": "+2s",
+      "CH": "+12s",
       "Notes": ""
     },
     {
@@ -908,7 +908,7 @@
       "Startup": "22~23",
       "Block": "+3~+4s",
       "Hit": "+6~+7s (KND)",
-      "CH": "KND",
+      "CH": "Launch",
       "Notes": ""
     },
     {
@@ -1268,7 +1268,7 @@
       "Startup": "js12~",
       "Block": "-6~-3",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "Tail spin",
       "Notes": "Tail spin"
     },
     {
@@ -1339,7 +1339,7 @@
       "Block": "-19~-18",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "RDS 4",
@@ -1458,7 +1458,7 @@
       "Startup": "16",
       "Block": "-5~-4",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "Tail spin",
       "Notes": "Tail spin"
     },
     {
@@ -1498,7 +1498,7 @@
       "Startup": "15",
       "Block": "+2",
       "Hit": "+2s",
-      "CH": "+2s",
+      "CH": "+12s",
       "Notes": ""
     },
     {
@@ -1644,11 +1644,11 @@
     {
       "Command": "AOP 1+2",
       "Level": "m",
-      "Damage": "24",
+      "Damage": "25",
       "Startup": "19",
       "Block": "-5",
       "Hit": "KND",
-      "CH": "CS",
+      "CH": "KND",
       "Notes": "Wall bounce"
     },
     {
@@ -2088,7 +2088,7 @@
       "Startup": "15",
       "Block": "+2",
       "Hit": "+2s",
-      "CH": "+2s",
+      "CH": "+12s",
       "Notes": ""
     },
     {
@@ -2244,11 +2244,21 @@
     {
       "Command": "WS+1",
       "Level": "m",
-      "Damage": "12",
-      "Startup": "11~12",
+      "Damage": "10",
+      "Startup": "13~14",
       "Block": "-4~-3",
       "Hit": "+7~+8",
       "CH": "+7~+8",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+1, 4",
+      "Level": "m, m",
+      "Damage": "10,20",
+      "Startup": "13~14",
+      "Block": "-10",
+      "Hit": "+12?",
+      "CH": "+12?",
       "Notes": ""
     },
     {
@@ -2268,7 +2278,7 @@
       "Startup": "22~23",
       "Block": "+3~+4s",
       "Hit": "+6~+7s (KND)",
-      "CH": "KND",
+      "CH": "Launch",
       "Notes": ""
     },
     {
@@ -2389,7 +2399,7 @@
       "Block": "-19~-18",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "RDS 4",
@@ -2448,7 +2458,7 @@
       "Startup": "15",
       "Block": "+2",
       "Hit": "+2s",
-      "CH": "+2s",
+      "CH": "+12s",
       "Notes": ""
     }
   ]

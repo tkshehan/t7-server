@@ -892,6 +892,26 @@
       "Notes": ""
     },
     {
+      "Command": "qcf+2",
+      "Level": "l",
+      "Damage": "18",
+      "Startup": "19",
+      "Block": "-19",
+      "Hit": "+2",
+      "CH": "+2",
+      "Notes": ""
+    },
+    {
+      "Command": "qcf+2 f",
+      "Level": "l (PAB)",
+      "Damage": "18",
+      "Startup": "19",
+      "Block": "-19",
+      "Hit": "+2",
+      "CH": "+2",
+      "Notes": ""
+    },
+    {
       "Command": "qcb, f+2+3",
       "Level": "!",
       "Damage": "70",
@@ -1189,7 +1209,7 @@
       "Block": "-13~-12",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wallbounce"
     },
     {
       "Command": "3+4 (to ALB)",
@@ -1548,7 +1568,7 @@
       "Startup": "12~13 (13~)",
       "Block": "-13~-11",
       "Hit": "+8~+10s",
-      "CH": "KND",
+      "CH": "Launch (3rd hit)",
       "Notes": ""
     },
     {
@@ -1937,8 +1957,8 @@
       "Damage": "14,23",
       "Startup": "12",
       "Block": "0~+2",
-      "Hit": "KND",
-      "CH": "CS",
+      "Hit": "+18",
+      "CH": "Tail spin",
       "Notes": "Tail spin"
     },
     {
@@ -1948,7 +1968,7 @@
       "Startup": "18~19 (23~)",
       "Block": "-5",
       "Hit": "KND",
-      "CH": "KND",
+      "CH": "Launch",
       "Notes": ""
     },
     {
@@ -1966,7 +1986,7 @@
       "Level": "h",
       "Damage": "27",
       "Startup": "14~15 (19~) pc8~13",
-      "Block": "-10~-9",
+      "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Power crush"
@@ -2098,7 +2118,7 @@
       "Startup": "16~17",
       "Block": "-11~-10",
       "Hit": "+6~+7",
-      "CH": "CS",
+      "CH": "KND (JG?)",
       "Notes": "Homing"
     },
     {
@@ -2216,7 +2236,7 @@
       "Level": "m?",
       "Damage": "20",
       "Startup": "17~18",
-      "Block": "-13~-12",
+      "Block": "-14",
       "Hit": "CS",
       "CH": "CS",
       "Notes": ""

@@ -56,9 +56,9 @@
       "Level": "h, h",
       "Damage": "10,12",
       "Startup": "10",
-      "Block": "-7",
-      "Hit": "+4",
-      "CH": "+4",
+      "Block": "-6",
+      "Hit": "+5",
+      "CH": "+5",
       "Notes": ""
     },
     {
@@ -266,7 +266,7 @@
       "Level": "m",
       "Damage": "14",
       "Startup": "14",
-      "Block": "-9",
+      "Block": "-6",
       "Hit": "+4",
       "CH": "+4",
       "Notes": ""
@@ -436,10 +436,20 @@
       "Level": "l (TC)",
       "Damage": "16",
       "Startup": "21s cs6~",
-      "Block": "-28",
-      "Hit": "+6",
-      "CH": "+6",
+      "Block": "-20",
+      "Hit": "-4",
+      "CH": "-4",
       "Notes": ""
+    },
+    {
+      "Command": "d/b+3, 2",
+      "Level": "l, h (TC)",
+      "Damage": "16, 20",
+      "Startup": "21s cs6~",
+      "Block": "-9",
+      "Hit": "Tail spin",
+      "CH": "Tail spin",
+      "Notes": "Tail spin"
     },
     {
       "Command": "d/b+4",
@@ -536,7 +546,7 @@
       "Level": "m",
       "Damage": "30",
       "Startup": "25~26",
-      "Block": "+1~+2s",
+      "Block": "+4~+5s",
       "Hit": "+5~+6s",
       "CH": "+5~+6s",
       "Notes": ""
@@ -697,8 +707,8 @@
       "Damage": "17",
       "Startup": "11~12",
       "Block": "-7~-6",
-      "Hit": "+3~+4",
-      "CH": "+3~+4",
+      "Hit": "+5~+6",
+      "CH": "+5~+6",
       "Notes": ""
     },
     {
@@ -869,7 +879,7 @@
       "Block": "KND",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "GOL 2 (After three step)",
@@ -1026,7 +1036,7 @@
       "Level": "m",
       "Damage": "14",
       "Startup": "14",
-      "Block": "-9",
+      "Block": "-6",
       "Hit": "+4",
       "CH": "+4",
       "Notes": ""
@@ -1126,9 +1136,9 @@
       "Level": "l (TC)",
       "Damage": "16",
       "Startup": "21s cs6~",
-      "Block": "-28",
-      "Hit": "+6",
-      "CH": "+6",
+      "Block": "-20",
+      "Hit": "-4",
+      "CH": "-4",
       "Notes": ""
     },
     {
@@ -1287,8 +1297,8 @@
       "Damage": "17",
       "Startup": "11~12",
       "Block": "-7~-6",
-      "Hit": "+3~+4",
-      "CH": "+3~+4",
+      "Hit": "+4~+5",
+      "CH": "+4~+5",
       "Notes": ""
     },
     {

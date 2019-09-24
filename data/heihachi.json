@@ -524,7 +524,7 @@
     {
       "Command": "b+1+2",
       "Level": "m",
-      "Damage": "18",
+      "Damage": "17",
       "Startup": "19~20",
       "Block": "-9~-8",
       "Hit": "+2~+3",
@@ -574,7 +574,7 @@
     {
       "Command": "f, F+2",
       "Level": "m",
-      "Damage": "25",
+      "Damage": "22",
       "Startup": "19~20 (20~)",
       "Block": "-16~-15",
       "Hit": "Launch",
@@ -692,6 +692,26 @@
       "Notes": "Tail spin"
     },
     {
+      "Command": "WS+3",
+      "Level": "m",
+      "Damage": "10",
+      "Startup": "18",
+      "Block": "-11",
+      "Hit": "+0",
+      "CH": "+0",
+      "Notes": ""
+    },
+    {
+      "Command": "WS+3,1+2",
+      "Level": "m,m",
+      "Damage": "10,20",
+      "Startup": "18",
+      "Block": "-14",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": ""
+    },
+    {
       "Command": "WS+4",
       "Level": "m",
       "Damage": "13",
@@ -714,7 +734,7 @@
     {
       "Command": "FC+d/f+4",
       "Level": "l (TC)",
-      "Damage": "23",
+      "Damage": "20",
       "Startup": "19~21s cs1~",
       "Block": "-23",
       "Hit": "KND",
@@ -884,7 +904,7 @@
     {
       "Command": "f, n, d, D/F+2",
       "Level": "h",
-      "Damage": "23",
+      "Damage": "20",
       "Startup": "11~12 (15~)",
       "Block": "-10~-9",
       "Hit": "Launch (JG?)",
@@ -936,7 +956,7 @@
       "Level": "l, l(HS)",
       "Damage": "15,10",
       "Startup": "16~17 (19~)",
-      "Block": "-11",
+      "Block": "-10",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -946,7 +966,7 @@
       "Level": "l, l(HS)",
       "Damage": "15,10",
       "Startup": "16~17 (19~)",
-      "Block": "-11",
+      "Block": "-10",
       "Hit": "+3s",
       "CH": "KND",
       "Notes": ""
@@ -956,7 +976,7 @@
       "Level": "l, l, l(HS)",
       "Damage": "15,10,8",
       "Startup": "16~17 (19~)",
-      "Block": "-11",
+      "Block": "-10",
       "Hit": "KND",
       "CH": "KND",
       "Notes": ""
@@ -966,7 +986,7 @@
       "Level": "l, l, l(HS)",
       "Damage": "15,10,8",
       "Startup": "16~17 (19~)",
-      "Block": "-11",
+      "Block": "-10",
       "Hit": "+3s",
       "CH": "KND",
       "Notes": ""

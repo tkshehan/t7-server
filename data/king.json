@@ -106,9 +106,9 @@
       "Level": "h, m",
       "Damage": "10,15",
       "Startup": "10",
-      "Block": "-2~-1",
-      "Hit": "+5~+6",
-      "CH": "+5~+6",
+      "Block": "-1",
+      "Hit": "+7",
+      "CH": "+7",
       "Notes": ""
     },
     {
@@ -129,7 +129,7 @@
       "Block": "-13",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "Wall bounce"
     },
     {
       "Command": "1+2, 3",
@@ -602,6 +602,16 @@
       "Notes": ""
     },
     {
+      "Command": "b+2, 1",
+      "Level": "h, h",
+      "Damage": "14,20",
+      "Startup": "14",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tailspin"
+    },
+    {
       "Command": "b+2, 4",
       "Level": "h, m",
       "Damage": "12,18",
@@ -764,10 +774,10 @@
     {
       "Command": "f, f, N, 2",
       "Level": "l (TC)",
-      "Damage": "14",
+      "Damage": "15",
       "Startup": "18(19~) cs6~",
-      "Block": "-15",
-      "Hit": "0s",
+      "Block": "-14",
+      "Hit": "+1",
       "CH": "Throw(KND)",
       "Notes": ""
     },

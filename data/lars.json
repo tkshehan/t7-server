@@ -2,6 +2,16 @@
   "character": "lars",
   "moves": [
     {
+      "Command": "<strong>Command</strong>",
+      "Level": "<strong>Hit level</strong>",
+      "Damage": "<strong>Damage</strong>",
+      "Startup": "<strong>Start up frame</strong>",
+      "Block": "<strong>Block frame</strong>",
+      "Hit": "<strong>Hit frame</strong>",
+      "CH": "<strong>Counter hit frame</strong>",
+      "Notes": "Notes"
+    },
+    {
       "Command": "in rage 1+2",
       "Level": "m",
       "Damage": "55",
@@ -29,7 +39,7 @@
       "Block": "KND",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1",
@@ -39,7 +49,7 @@
       "Block": "+1",
       "Hit": "+8",
       "CH": "+8",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1, 1",
@@ -49,17 +59,17 @@
       "Block": "-8~-7",
       "Hit": "0~+1",
       "CH": "0~+1",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1, 1, 1",
       "Level": "h, m, m",
-      "Damage": "7,10,17",
+      "Damage": "7,10,15",
       "Startup": "10",
-      "Block": "-12~-11",
-      "Hit": "+3~+4s",
+      "Block": "-14~-13",
+      "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1, 2",
@@ -69,7 +79,7 @@
       "Block": "-1",
       "Hit": "+7",
       "CH": "+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1, 4",
@@ -79,7 +89,7 @@
       "Block": "-12~-11",
       "Hit": "+1~+2",
       "CH": "+1~+2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "2",
@@ -89,32 +99,32 @@
       "Block": "0",
       "Hit": "+8",
       "CH": "+8",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "2, 1",
       "Level": "h, m",
       "Damage": "10,7",
       "Startup": "10",
-      "Block": "-7~-6",
-      "Hit": "+4~+5",
-      "CH": "+4~+5",
-      "Notes": ""
+      "Block": "-5~-4",
+      "Hit": "+6~+7",
+      "CH": "+6~+7",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "2, 1, 3",
       "Level": "h, m, m",
-      "Damage": "10,7,20",
+      "Damage": "10,10,20",
       "Startup": "10",
       "Block": "-12~-11",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "2, 1, 4",
       "Level": "h, m, h",
-      "Damage": "10,7,27",
+      "Damage": "10,10,27",
       "Startup": "10",
       "Block": "-7~-6",
       "Hit": "KND",
@@ -129,7 +139,7 @@
       "Block": "-12",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "3, D",
@@ -139,7 +149,7 @@
       "Block": "-12",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "4",
@@ -159,7 +169,7 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+1, 2",
@@ -169,17 +179,17 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
-      "Command": "f+1, 2, B",
+      "Command": "f+1, 2, F",
       "Level": "h, m (SEN)",
       "Damage": "10,11",
       "Startup": "13",
       "Block": "-8",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+1, 2, 3",
@@ -189,17 +199,17 @@
       "Block": "-9",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
-      "Command": "f+1, 2, 3, B",
+      "Command": "f+1, 2, 3, F",
       "Level": "h, m, m, (DEN)",
       "Damage": "10,11,20",
       "Startup": "13",
       "Block": "-12",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+2",
@@ -209,7 +219,7 @@
       "Block": "-6",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+2, 1",
@@ -219,17 +229,17 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
-      "Command": "f+2, 1, B",
+      "Command": "f+2, 1, F",
       "Level": "h, h (SEN)",
       "Damage": "10,12",
       "Startup": "12",
       "Block": "-6",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+2, 4",
@@ -239,7 +249,7 @@
       "Block": "-12~-11",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+4",
@@ -249,7 +259,7 @@
       "Block": "-9",
       "Hit": "+7",
       "CH": "+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+4, 1",
@@ -259,7 +269,7 @@
       "Block": "-9~-8",
       "Hit": "+2~+3",
       "CH": "+2~+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+4, 1, 2",
@@ -269,7 +279,7 @@
       "Block": "-10",
       "Hit": "+2",
       "CH": "+2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+4, 1, 2, 1",
@@ -279,7 +289,7 @@
       "Block": "-14~-13",
       "Hit": "ED",
       "CH": "ED",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+1+2",
@@ -289,7 +299,7 @@
       "Block": "-13~-12",
       "Hit": "CS",
       "CH": "CS",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+1+4",
@@ -299,7 +309,7 @@
       "Block": "-18",
       "Hit": "ED",
       "CH": "ED",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+1",
@@ -309,7 +319,7 @@
       "Block": "-1",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+2",
@@ -319,7 +329,7 @@
       "Block": "-8",
       "Hit": "+3~-4a",
       "CH": "+3~-4a",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+2, 1",
@@ -339,7 +349,7 @@
       "Block": "-7",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+3, D",
@@ -349,17 +359,17 @@
       "Block": "-4(-8)",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+3, 3",
       "Level": "m, m",
-      "Damage": "15,20",
+      "Damage": "15,24",
       "Startup": "16a",
-      "Block": "-20~-19",
+      "Block": "-15~-14",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+4",
@@ -369,7 +379,7 @@
       "Block": "-8~-7",
       "Hit": "+2~+3",
       "CH": "+2~+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+1+2",
@@ -389,7 +399,17 @@
       "Block": "0~+1s",
       "Hit": "+8~+9s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
+    },
+    {
+      "Command": "d+2, D",
+      "Level": "m",
+      "Damage": "17",
+      "Startup": "18~19",
+      "Block": "0~+1s",
+      "Hit": "+8~+9s",
+      "CH": "KND",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+3",
@@ -399,7 +419,7 @@
       "Block": "-14",
       "Hit": "-3",
       "CH": "-3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+3, 1",
@@ -409,7 +429,7 @@
       "Block": "-7",
       "Hit": "+4",
       "CH": "+4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+1+2",
@@ -419,7 +439,7 @@
       "Block": "-20~-19",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+1",
@@ -429,7 +449,7 @@
       "Block": "-12",
       "Hit": "-1",
       "CH": "-1",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+1, 3",
@@ -439,7 +459,7 @@
       "Block": "-12",
       "Hit": "-1",
       "CH": "-1",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+1, 3, D",
@@ -449,7 +469,7 @@
       "Block": "-12",
       "Hit": "-1",
       "CH": "-1",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2",
@@ -459,7 +479,7 @@
       "Block": "-8",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2, F",
@@ -469,7 +489,7 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2, 1",
@@ -479,7 +499,7 @@
       "Block": "-8~-7",
       "Hit": "+6~+7",
       "CH": "+6~+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2, 3",
@@ -489,7 +509,7 @@
       "Block": "-13",
       "Hit": "0",
       "CH": "+23g(KND)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2, 3* (Very long hold)",
@@ -499,7 +519,7 @@
       "Block": "+8",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+4",
@@ -509,7 +529,7 @@
       "Block": "-26",
       "Hit": "+5~+6s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+1+2",
@@ -519,7 +539,7 @@
       "Block": "-14~-13",
       "Hit": "+5~+6",
       "CH": "CS",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+1",
@@ -539,7 +559,7 @@
       "Block": "-7",
       "Hit": "+4",
       "CH": "+4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+2, 1",
@@ -547,9 +567,9 @@
       "Damage": "12,17",
       "Startup": "16",
       "Block": "-10",
-      "Hit": "+3",
-      "CH": "CS",
-      "Notes": ""
+      "Hit": "+4",
+      "CH": "KND",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+2, 3",
@@ -559,7 +579,7 @@
       "Block": "-8~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+3",
@@ -569,7 +589,7 @@
       "Block": "-12",
       "Hit": "+4",
       "CH": "+4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+3, F",
@@ -579,7 +599,7 @@
       "Block": "-5",
       "Hit": "+11",
       "CH": "+11",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+3, 4",
@@ -599,17 +619,17 @@
       "Block": "-8",
       "Hit": "+8",
       "CH": "Throw(KND)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+4(CH in front)",
       "Level": "m, (throw)",
       "Damage": "27,23",
       "Startup": "15",
-      "Block": "",
-      "Hit": "",
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
       "CH": "Throw(KND)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+1+2",
@@ -629,7 +649,7 @@
       "Block": "KND",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u or u/f+3",
@@ -639,7 +659,7 @@
       "Block": "-26~-25 (13~6a)",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b+4",
@@ -649,7 +669,7 @@
       "Block": "-9~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u or u/f+4",
@@ -659,7 +679,7 @@
       "Block": "-9~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+2",
@@ -669,17 +689,17 @@
       "Block": "-13~-12",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+2 When hit f",
       "Level": "m, (SEN)",
       "Damage": "20",
       "Startup": "21~22 (22~)",
-      "Block": "",
+      "Block": "&#xA0;",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+3",
@@ -689,7 +709,7 @@
       "Block": "-8~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+4",
@@ -699,7 +719,7 @@
       "Block": "-31",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+4, 3",
@@ -707,9 +727,9 @@
       "Damage": "14,20",
       "Startup": "21(22~)",
       "Block": "-16",
-      "Hit": "0",
-      "CH": "0",
-      "Notes": ""
+      "Hit": "+3",
+      "CH": "+3",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+1+2",
@@ -718,8 +738,8 @@
       "Startup": "16~17 (17~)",
       "Block": "-11~-10",
       "Hit": "KND",
-      "CH": "KND",
-      "Notes": ""
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, F+3+4",
@@ -728,8 +748,8 @@
       "Startup": "19~20 ,29~30 (20~) cs21~",
       "Block": "-16~-15",
       "Hit": "0~+1s",
-      "CH": "0~+1s",
-      "Notes": ""
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, b+2",
@@ -739,7 +759,7 @@
       "Block": "-12",
       "Hit": "0",
       "CH": "0",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, b+2, 1",
@@ -749,7 +769,7 @@
       "Block": "-18~-17",
       "Hit": "BU",
       "CH": "BU",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f, f, f+3",
@@ -759,7 +779,7 @@
       "Block": "+8~+14g",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+1",
@@ -769,57 +789,57 @@
       "Block": "-12~-11",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+1 When hit f",
       "Level": "m, (SEN)",
       "Damage": "16",
       "Startup": "15~16",
-      "Block": "",
+      "Block": "&#xA0;",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+2",
       "Level": "m",
-      "Damage": "10",
+      "Damage": "13",
       "Startup": "13~14",
-      "Block": "-9~-8",
-      "Hit": "+2~+3",
-      "CH": "+2~+3",
-      "Notes": ""
+      "Block": "-8~-7",
+      "Hit": "+3~+4",
+      "CH": "+3~+4",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+2, F",
       "Level": "m, (SEN)",
-      "Damage": "10",
+      "Damage": "13",
       "Startup": "13~14",
       "Block": "-5~-4",
-      "Hit": "+6~+7",
+      "Hit": "+7~+8",
       "CH": "+6~+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+2, D",
       "Level": "m, (DEN)",
-      "Damage": "10",
+      "Damage": "13",
       "Startup": "13~14",
       "Block": "-12~-11",
-      "Hit": "-1~0",
+      "Hit": "0~+1",
       "CH": "-1~0",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+2, 1",
       "Level": "m, m",
-      "Damage": "10,17",
+      "Damage": "13,17",
       "Startup": "13~14",
       "Block": "-12~-11s",
-      "Hit": "+3~+4s",
+      "Hit": "+5~+6s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+3",
@@ -829,7 +849,7 @@
       "Block": "+7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+4",
@@ -839,7 +859,17 @@
       "Block": "-6~-5",
       "Hit": "+5~+6",
       "CH": "+5~+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
+    },
+    {
+      "Command": "FC+d/f+2",
+      "Level": "m",
+      "Damage": "19",
+      "Startup": "16",
+      "Block": "-8",
+      "Hit": "+5",
+      "CH": "KND",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "FC+d/f+1+2",
@@ -849,7 +879,7 @@
       "Block": "-12~-11",
       "Hit": "+1~+2",
       "CH": "+1~+2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SS+2",
@@ -859,7 +889,7 @@
       "Block": "-7~-6",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "Opponent Down d+3+4",
@@ -869,7 +899,7 @@
       "Block": "-14~-13",
       "Hit": "-3~-2",
       "CH": "-3~-2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "Opponent Down d+3+4*, F",
@@ -879,17 +909,17 @@
       "Block": "-14~-13",
       "Hit": "-3~-2",
       "CH": "-3~-2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1+2+3+4",
       "Level": "(Special)",
-      "Damage": "",
+      "Damage": "&#xA0;",
       "Startup": "22~23",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "1+2+3+4, 2",
@@ -899,17 +929,17 @@
       "Block": "-18~-17",
       "Hit": "Launch (JG?)",
       "CH": "Launch (JG?)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SEN only from certain moves",
       "Level": "(SEN)",
-      "Damage": "",
+      "Damage": "&#xA0;",
       "Startup": "16~17 (46~) 14~",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SEN 1",
@@ -919,7 +949,7 @@
       "Block": "-10~-9",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SEN 2",
@@ -927,9 +957,9 @@
       "Damage": "20",
       "Startup": "19~20s cs12~",
       "Block": "-13~-12",
-      "Hit": "+3~+4s",
+      "Hit": "+5~+6s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SEN 3",
@@ -939,57 +969,67 @@
       "Block": "-14~-12",
       "Hit": "Launch (JG?)",
       "CH": "Launch (JG?)",
-      "Notes": ""
+      "Notes": "&#xA0;"
+    },
+    {
+      "Command": "SEN 4",
+      "Level": "h",
+      "Damage": "27",
+      "Startup": "20~21",
+      "Block": "-10~-9",
+      "Hit": "Launch (Screw)",
+      "CH": "Launch (Screw)",
+      "Notes": "Power crush, Tail spin"
     },
     {
       "Command": "SEN d/f+1",
       "Level": "m",
       "Damage": "20",
       "Startup": "14~15",
-      "Block": "-4~-3s",
-      "Hit": "+4~+5s",
-      "CH": "+4~+5s",
-      "Notes": ""
+      "Block": "0~+1s",
+      "Hit": "+8~+9s",
+      "CH": "KND",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+3 or Form certain moves",
       "Level": "(Special)",
       "Damage": "cs 4~10",
       "Startup": "14~15",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN F",
       "Level": "(SEN)",
-      "Damage": "",
-      "Startup": "",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Damage": "&#xA0;",
+      "Startup": "&#xA0;",
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 1",
       "Level": "h",
       "Damage": "14",
       "Startup": "11~12 (26~)",
-      "Block": "-3~-2",
+      "Block": "-1~0",
       "Hit": "+8~+9",
       "CH": "+8~+9",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 1, F",
       "Level": "h, (SEN)",
       "Damage": "14",
       "Startup": "11~12 (26~)",
-      "Block": "-5~-4",
+      "Block": "-3~-2",
       "Hit": "+6~+7",
       "CH": "+6~+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 1, 2",
@@ -999,17 +1039,17 @@
       "Block": "-6~-5",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 2",
       "Level": "m?",
-      "Damage": "17",
+      "Damage": "19",
       "Startup": "17~19 (32~)",
-      "Block": "-8~-6",
-      "Hit": "+6~+8",
+      "Block": "-7~-5",
+      "Hit": "+7~+9",
       "CH": "CS",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 3",
@@ -1027,8 +1067,8 @@
       "Damage": "14,20",
       "Startup": "21",
       "Block": "-16",
-      "Hit": "+5",
-      "CH": "+5",
+      "Hit": "+3",
+      "CH": "+3",
       "Notes": "Same as f, F+4, 3"
     },
     {
@@ -1046,40 +1086,40 @@
       "Level": "h(Throw)",
       "Damage": "20,20",
       "Startup": "12(27~)",
-      "Block": "",
+      "Block": "&#xA0;",
       "Hit": "Throw(KND)",
-      "CH": "",
-      "Notes": ""
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "DEN 2+3 (Opponent in air)",
       "Level": "Air throw",
       "Damage": "23,8",
       "Startup": "12(27~)",
-      "Block": "",
+      "Block": "&#xA0;",
       "Hit": "Throw(KND)",
-      "CH": "",
-      "Notes": ""
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u or u/f+3+4",
       "Level": "(Special) (TJ)",
-      "Damage": "",
+      "Damage": "&#xA0;",
       "Startup": "lc,a",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u or u/f+3+4*",
       "Level": "h(Throw)",
       "Damage": "40(50)",
       "Startup": "9(25) js1~",
-      "Block": "",
+      "Block": "&#xA0;",
       "Hit": "Throw(KND)",
-      "CH": "",
-      "Notes": ""
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/f+3+4, 1",
@@ -1089,7 +1129,7 @@
       "Block": "-13~-12",
       "Hit": "+3~+4s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/f+3+4, 4",
@@ -1099,7 +1139,17 @@
       "Block": "-8~-7",
       "Hit": "+8~+9s",
       "CH": "Throw(KND)",
-      "Notes": ""
+      "Notes": "&#xA0;"
+    },
+    {
+      "Command": "<strong>Command</strong>",
+      "Level": "<strong>Hit level</strong>",
+      "Damage": "<strong>Damage</strong>",
+      "Startup": "<strong>Start up frame</strong>",
+      "Block": "<strong>Block frame</strong>",
+      "Hit": "<strong>Hit frame</strong>",
+      "CH": "<strong>Counter hit frame</strong>",
+      "Notes": "Notes"
     },
     {
       "Command": "1",
@@ -1109,7 +1159,7 @@
       "Block": "+1",
       "Hit": "+8",
       "CH": "+8",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "2",
@@ -1119,7 +1169,7 @@
       "Block": "0",
       "Hit": "+8",
       "CH": "+8",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "3",
@@ -1129,7 +1179,7 @@
       "Block": "-12",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "4",
@@ -1149,7 +1199,7 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+2",
@@ -1159,17 +1209,17 @@
       "Block": "-6",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+3 (to DEN)",
       "Level": "(DEN)",
-      "Damage": "",
+      "Damage": "&#xA0;",
       "Startup": "12",
-      "Block": "",
-      "Hit": "",
-      "CH": "",
-      "Notes": ""
+      "Block": "&#xA0;",
+      "Hit": "&#xA0;",
+      "CH": "&#xA0;",
+      "Notes": "&#xA0;"
     },
     {
       "Command": "f+4",
@@ -1179,7 +1229,7 @@
       "Block": "-9",
       "Hit": "+7",
       "CH": "+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+1",
@@ -1189,7 +1239,7 @@
       "Block": "-1",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+2",
@@ -1199,7 +1249,7 @@
       "Block": "-8",
       "Hit": "+3a",
       "CH": "+3a",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+3",
@@ -1209,7 +1259,7 @@
       "Block": "-7",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/f+4",
@@ -1219,7 +1269,7 @@
       "Block": "-8~-7",
       "Hit": "+2~+3",
       "CH": "+2~+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+1",
@@ -1229,7 +1279,7 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+2",
@@ -1239,7 +1289,7 @@
       "Block": "0~+1s",
       "Hit": "+8~+9s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+3",
@@ -1249,7 +1299,7 @@
       "Block": "-14",
       "Hit": "-3",
       "CH": "-3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d+4",
@@ -1259,7 +1309,7 @@
       "Block": "-13",
       "Hit": "-2",
       "CH": "-2",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+1",
@@ -1269,7 +1319,7 @@
       "Block": "-12",
       "Hit": "-1",
       "CH": "-1",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+2",
@@ -1279,7 +1329,7 @@
       "Block": "-8",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+3",
@@ -1289,7 +1339,7 @@
       "Block": "-17",
       "Hit": "-3",
       "CH": "-3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "d/b+4",
@@ -1299,7 +1349,7 @@
       "Block": "-26",
       "Hit": "+5~+6s",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+1",
@@ -1319,7 +1369,7 @@
       "Block": "-7",
       "Hit": "+4",
       "CH": "+4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+3",
@@ -1329,7 +1379,7 @@
       "Block": "-12",
       "Hit": "+4",
       "CH": "+4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "b+4",
@@ -1339,7 +1389,7 @@
       "Block": "-8",
       "Hit": "+8",
       "CH": "Throw(KND)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u+1",
@@ -1349,7 +1399,7 @@
       "Block": "-8",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/f+1",
@@ -1359,7 +1409,7 @@
       "Block": "-16",
       "Hit": "-5",
       "CH": "-5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u or u/f+2",
@@ -1369,7 +1419,7 @@
       "Block": "-12~-11",
       "Hit": "+9~+10g",
       "CH": "+9~+10g",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b or u or u/f+3",
@@ -1379,7 +1429,7 @@
       "Block": "-26~-25 (13~6a)",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/b+4",
@@ -1389,7 +1439,7 @@
       "Block": "-9~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u or u/f+4",
@@ -1399,7 +1449,7 @@
       "Block": "-9~-7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "u/f, n+4",
@@ -1409,7 +1459,7 @@
       "Block": "-11(-13)",
       "Hit": "Launch (JG?)",
       "CH": "Launch (JG?)",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+1",
@@ -1419,7 +1469,7 @@
       "Block": "-12~-11",
       "Hit": "Launch",
       "CH": "Launch",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+2",
@@ -1429,7 +1479,7 @@
       "Block": "-9~-8",
       "Hit": "+2~+3",
       "CH": "+2~+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+3",
@@ -1439,7 +1489,7 @@
       "Block": "+7",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "WS+4",
@@ -1449,7 +1499,7 @@
       "Block": "-6~-5",
       "Hit": "+5~+6",
       "CH": "+5~+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "FC+1",
@@ -1459,7 +1509,7 @@
       "Block": "-5",
       "Hit": "+6",
       "CH": "+6",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "FC+2",
@@ -1469,7 +1519,7 @@
       "Block": "-4",
       "Hit": "+7",
       "CH": "+7",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "FC+3",
@@ -1479,7 +1529,7 @@
       "Block": "-17",
       "Hit": "-3",
       "CH": "-3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "FC+4",
@@ -1489,7 +1539,7 @@
       "Block": "-15",
       "Hit": "-4",
       "CH": "-4",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SS+1",
@@ -1499,7 +1549,7 @@
       "Block": "+1",
       "Hit": "+8",
       "CH": "+8",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SS+2",
@@ -1509,7 +1559,7 @@
       "Block": "-7~-6",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SS+3",
@@ -1519,7 +1569,7 @@
       "Block": "-12",
       "Hit": "+5",
       "CH": "+5",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "SS+4",
@@ -1539,7 +1589,7 @@
       "Block": "-8",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "BT 3 or 4",
@@ -1549,7 +1599,7 @@
       "Block": "-8",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "BT d+1 or 2",
@@ -1559,7 +1609,7 @@
       "Block": "-2",
       "Hit": "+9",
       "CH": "+9",
-      "Notes": ""
+      "Notes": "&#xA0;"
     },
     {
       "Command": "BT d+3 or 4",
@@ -1569,7 +1619,7 @@
       "Block": "-11",
       "Hit": "+3",
       "CH": "+3",
-      "Notes": ""
+      "Notes": "&#xA0;"
     }
   ]
 }

@@ -15,7 +15,7 @@
       "Command": "In rage SNK 2+3",
       "Level": "m",
       "Damage": "40",
-      "Startup": "20",
+      "Startup": "15",
       "Block": "+9g",
       "Hit": "KND",
       "CH": "KND",
@@ -25,7 +25,7 @@
       "Command": "In rage DRG 2+3",
       "Level": "m",
       "Damage": "40",
-      "Startup": "17",
+      "Startup": "15",
       "Block": "+11g",
       "Hit": "KND",
       "CH": "KND",
@@ -35,7 +35,7 @@
       "Command": "In rage DRG 2+3, F",
       "Level": "m (TGR)",
       "Damage": "40",
-      "Startup": "17",
+      "Startup": "15",
       "Block": "+10g",
       "Hit": "KND",
       "CH": "KND",
@@ -55,7 +55,7 @@
       "Command": "In rage TGR 2+3",
       "Level": "m",
       "Damage": "30",
-      "Startup": "16",
+      "Startup": "14",
       "Block": "+15g",
       "Hit": "JG",
       "CH": "JG",
@@ -1002,6 +1002,16 @@
       "Notes": " "
     },
     {
+      "Command": "u+1+2, 1,2",
+      "Level": "m",
+      "Damage": "25",
+      "Startup": "",
+      "Block": "-8",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Wall Bounce"
+    },
+    {
       "Command": "u+1+2, 4",
       "Level": "l (TC) (Special)",
       "Damage": "20",
@@ -1042,43 +1052,23 @@
       "Notes": " "
     },
     {
-      "Command": "f, N",
-      "Level": "(Special)",
-      "Damage": " ",
-      "Startup": " ",
-      "Block": " ",
-      "Hit": " ",
-      "CH": " ",
-      "Notes": " "
-    },
-    {
       "Command": "f, N, 1",
       "Level": "m",
       "Damage": "9",
       "Startup": "12",
       "Block": "-2",
-      "Hit": "7",
-      "CH": "7",
+      "Hit": "7 (11)",
+      "CH": "7(11)",
       "Notes": " "
     },
     {
-      "Command": "f, N, 1, u",
-      "Level": "m (Special)",
-      "Damage": "9",
-      "Startup": "12",
-      "Block": "-5",
-      "Hit": "4",
-      "CH": "4",
-      "Notes": " "
-    },
-    {
-      "Command": "f, N, 1, d",
+      "Command": "f, N, 1, u or d",
       "Level": "m (Special)",
       "Damage": "9",
       "Startup": "12",
       "Block": "-11",
-      "Hit": "-2",
-      "CH": "-2",
+      "Hit": "-2(2)",
+      "CH": "-2(2)",
       "Notes": " "
     },
     {
@@ -1184,11 +1174,11 @@
     {
       "Command": "f, N, 2, 1",
       "Level": "h, m",
-      "Damage": "10,-",
+      "Damage": "10,12",
       "Startup": " ",
       "Block": "0",
-      "Hit": "-",
-      "CH": "-",
+      "Hit": "2",
+      "CH": "2",
       "Notes": " "
     },
     {
@@ -1209,16 +1199,6 @@
       "Block": "5",
       "Hit": "KND",
       "CH": "KND",
-      "Notes": " "
-    },
-    {
-      "Command": "f, N, 2, 2",
-      "Level": "h, m",
-      "Damage": "10,12",
-      "Startup": " ",
-      "Block": "-12",
-      "Hit": "-1",
-      "CH": "-1",
       "Notes": " "
     },
     {
@@ -1256,9 +1236,9 @@
       "Level": "h, m (Special)",
       "Damage": "18,12(5)",
       "Startup": " ",
-      "Block": "-6",
-      "Hit": "0",
-      "CH": "0",
+      "Block": "-3",
+      "Hit": "3",
+      "CH": "3",
       "Notes": " "
     },
     {
@@ -1445,7 +1425,7 @@
       "Command": "f, f, f+1",
       "Level": "m (TJ)",
       "Damage": "30",
-      "Startup": "24 js3",
+      "Startup": "22 js3",
       "Block": "+8g",
       "Hit": "KND",
       "CH": "KND",
@@ -1864,7 +1844,7 @@
     {
       "Command": "DRU 3",
       "Level": "l",
-      "Damage": "13",
+      "Damage": "10",
       "Startup": "17",
       "Block": "-12",
       "Hit": "1",
@@ -1874,7 +1854,7 @@
     {
       "Command": "DRU 3, F",
       "Level": "l (Special)",
-      "Damage": "13",
+      "Damage": "10",
       "Startup": " ",
       "Block": "-22",
       "Hit": "-9",
@@ -1884,7 +1864,7 @@
     {
       "Command": "DRU 3, 2",
       "Level": "l, m",
-      "Damage": "13, 20",
+      "Damage": "10, 20",
       "Startup": " ",
       "Block": "-1s",
       "Hit": "KND",
@@ -1894,7 +1874,7 @@
     {
       "Command": "DRU 3, 2, F",
       "Level": "l, m (special)",
-      "Damage": "13, 20",
+      "Damage": "10, 20",
       "Startup": " ",
       "Block": "-8s",
       "Hit": "KND",
@@ -1904,7 +1884,7 @@
     {
       "Command": "DRU 3, 2, 4",
       "Level": "l, m, m",
-      "Damage": "13,20,18",
+      "Damage": "10,20,18",
       "Startup": " ",
       "Block": "-21",
       "Hit": "KND",
@@ -1914,7 +1894,7 @@
     {
       "Command": "DRU 3, 2, 4, B",
       "Level": "l, m, m (special)",
-      "Damage": "13,20,18",
+      "Damage": "10,20,18",
       "Startup": " ",
       "Block": "-28",
       "Hit": "KND",
@@ -1924,12 +1904,22 @@
     {
       "Command": "DRU 3, 2, 4, F",
       "Level": "l, m, m (special)",
-      "Damage": "13,20,18",
+      "Damage": "10,20,18",
       "Startup": " ",
       "Block": "-27",
       "Hit": "KND",
       "CH": "KND",
       "Notes": " "
+    },
+    {
+      "Command": "DRU 3, 1+2",
+      "Level": "l, h",
+      "Damage": "10, 15",
+      "Startup": " ",
+      "Block": "-9",
+      "Hit": "KND",
+      "CH": "KND",
+      "Notes": "Tail Spin"
     },
     {
       "Command": "DRU 4",
@@ -3164,7 +3154,7 @@
     {
       "Command": "SNK 4",
       "Level": "l",
-      "Damage": "11",
+      "Damage": "13",
       "Startup": "15",
       "Block": "-13",
       "Hit": "-2",

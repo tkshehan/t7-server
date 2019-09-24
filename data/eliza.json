@@ -895,7 +895,7 @@
       "Command": "Two meter bars qcf, qcf+1+2",
       "Level": "Sm",
       "Damage": "15",
-      "Startup": "16?(~)",
+      "Startup": "15",
       "Block": "-7",
       "Hit": "Launch",
       "CH": "Launch",

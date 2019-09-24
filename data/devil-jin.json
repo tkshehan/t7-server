@@ -134,7 +134,7 @@
     {
       "Command": "2",
       "Level": "h",
-      "Damage": "10",
+      "Damage": "9",
       "Startup": "10",
       "Block": "0",
       "Hit": "+9",
@@ -300,6 +300,16 @@
       "Hit": "KND",
       "CH": "KND",
       "Notes": "Wall bounce"
+    },
+    {
+      "Command": "f+1+2, b",
+      "Level": "m",
+      "Damage": "12",
+      "Startup": "17~18",
+      "Block": "-18~-17",
+      "Hit": "-8",
+      "CH": "-8",
+      "Notes": ""
     },
     {
       "Command": "f+3+4",
@@ -539,6 +549,26 @@
       "Block": "-13~-11",
       "Hit": "-2~0",
       "CH": "-2~0",
+      "Notes": ""
+    },
+    {
+      "Command": "b+2, 1",
+      "Level": "h, m",
+      "Damage": "11,23",
+      "Startup": "15~17",
+      "Block": "-16",
+      "Hit": "knd",
+      "CH": "knd",
+      "Notes": ""
+    },
+    {
+      "Command": "b+2, 1, uf",
+      "Level": "h, m",
+      "Damage": "11,23, 15",
+      "Startup": "15~17",
+      "Block": "-16",
+      "Hit": "throw",
+      "CH": "throw",
       "Notes": ""
     },
     {
@@ -1104,7 +1134,7 @@
     {
       "Command": "f, n, d, D/F+2",
       "Level": "h",
-      "Damage": "23",
+      "Damage": "20",
       "Startup": "11~12 (15~)",
       "Block": "-10~-9",
       "Hit": "Launch (JG?)",
